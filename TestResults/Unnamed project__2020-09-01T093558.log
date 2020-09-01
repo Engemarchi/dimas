@@ -1,0 +1,206 @@
+﻿2020-09-01T09:35:58.6481261-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-09-01T09:35:58.6483066-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.41 in Framework netcore31 in x64 mode execution started
+2020-09-01T09:35:58.6483138-03:00;VSTestExecutionThread;Info;TestAdapter Location: D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-09-01T09:35:58.6503278-03:00;VSTestExecutionThread;Info;Current UserName: 'euclides.okamoto', MachineName: 'TI0637'
+2020-09-01T09:35:58.6895162-03:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll
+2020-09-01T09:35:58.6898044-03:00;VSTestExecutionThread;Info;Output folder configured to "D:\prj\dimas\TestResults" (default)
+2020-09-01T09:35:58.6898764-03:00;VSTestExecutionThread;Info;Profile: 
+2020-09-01T09:35:58.7477805-03:00;VSTestExecutionThread;Info;Log file path: D:\prj\dimas\TestResults\Unnamed project__2020-09-01T093558.log
+2020-09-01T09:35:58.7534678-03:00;Thread#12;Info;Checking activation
+2020-09-01T09:35:58.8619630-03:00;Thread#12;Info;Activated.
+2020-09-01T09:35:58.8622030-03:00;Thread#12;Info;Activation check completed
+2020-09-01T09:35:58.8622633-03:00;Thread#12;Info;Starting test run
+2020-09-01T09:35:58.9632175-03:00;Thread#12;Info;Discovering target: Default
+2020-09-01T09:35:58.9635052-03:00;Thread#12;Info;Discovering tests from assembly: D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll
+2020-09-01T09:35:59.0781356-03:00;Thread#12;Info;Discovered tests from assembly: D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll
+2020-09-01T09:35:59.0793107-03:00:Test Suite Dump
+2020-09-01T09:35:59.0809938-03:00:#0: Unnamed project/ - 
+2020-09-01T09:35:59.0810114-03:00:#1: Default - 
+2020-09-01T09:35:59.0810135-03:00:#2: api-test - 
+2020-09-01T09:35:59.0810150-03:00:#3: Autenticação de Usuário - 
+2020-09-01T09:35:59.0823676-03:00:#5: Autentica Usuário correto e Senha incorreta - TestAssembly:api-test/Feature:Autentica%c3%a7%c3%a3o+de+Usu%c3%a1rio/Scenario:Autentica+Usu%c3%a1rio+correto+e+Senha+incorreta
+2020-09-01T09:35:59.0824234-03:00:End: Test Suite Dump
+2020-09-01T09:35:59.1015824-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T09:35:59.1075576-03:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2020-09-01T09:35:59.1076672-03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-09-01T09:35:59.1113630-03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T09:35:59.1113792-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-09-01T09:35:59.1113814-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-09-01T09:35:59.1113864-03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-09-01T09:35:59.1121407-03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-09-01T09:35:59.1137549-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-09-01T09:35:59.1169533-03:00:Thread #0: creating new test thread executor for api-test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-09-01T09:35:59.1218794-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-01T09:35:59.1221907-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-01T09:35:59.1244907-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-09-01T09:35:59.1262527-03:00:starting Out Of Process Executor
+2020-09-01T09:35:59.1276471-03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T09:35:59.1301358-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-09-01T09:35:59.1301506-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-09-01T09:35:59.1313359-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:35:59.1316461-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T09:35:59.1317185-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T09:35:59.1317382-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:35:59.1418670-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T09:35:59.1418843-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T09:35:59.1419539-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T09:35:59.1420000-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T09:35:59.1422084-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T09:35:59.1422174-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T09:35:59.1422681-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T09:35:59.1423093-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T09:35:59.1424908-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T09:35:59.1424982-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T09:35:59.1425547-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T09:35:59.1426097-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T09:35:59.1446807-03:00:Starting callback TCP Rpc server
+2020-09-01T09:35:59.1652568-03:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-09-01T09:35:59.1652996-03:00:Started callback TCP Rpc server on port 32768
+2020-09-01T09:35:59.1653021-03:00:Starting logger TCP Rpc server
+2020-09-01T09:35:59.1683107-03:00:Asynchronously starting background TCP Rpc Server on port 32769
+2020-09-01T09:35:59.1683656-03:00:Started logger TCP Rpc server on port 32769
+2020-09-01T09:35:59.2667999-03:00:Executing test executor at 'dotnet' 'exec "D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 16400 --uniqueId "2020-09-01T093558" --outputFolder "D:\prj\dimas\TestResults" --callbackPort 32768 --loggerPort 32769' in 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:35:59.2771545-03:00:Executor with PID 48540 has been started successfully.
+2020-09-01T09:35:59.2803278-03:00:Out of Process Executor 48540 started
+2020-09-01T09:35:59.2803477-03:00:Waiting for endpoint
+2020-09-01T09:35:59.6575358-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T09:35:59.6575554-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' from .deps.json file
+2020-09-01T09:35:59.6575581-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' from .deps.json
+2020-09-01T09:35:59.6575608-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:35:59.6575622-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.dll'
+2020-09-01T09:35:59.6575783-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.exe'
+2020-09-01T09:35:59.6575932-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:35:59.6583007-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T09:35:59.6583109-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\StreamJsonRpc.resources.dll'
+2020-09-01T09:35:59.6583604-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\StreamJsonRpc.resources.exe'
+2020-09-01T09:35:59.6583974-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T09:35:59.6585607-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T09:35:59.6585678-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\StreamJsonRpc.resources.dll'
+2020-09-01T09:35:59.6586119-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\StreamJsonRpc.resources.exe'
+2020-09-01T09:35:59.6586468-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T09:35:59.6588418-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T09:35:59.6588493-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\StreamJsonRpc.resources.dll'
+2020-09-01T09:35:59.6589066-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\StreamJsonRpc.resources.exe'
+2020-09-01T09:35:59.6589431-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T09:35:59.6594970-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T09:35:59.6600493-03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T09:35:59.6600601-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-09-01T09:35:59.6600623-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-09-01T09:35:59.6600648-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:35:59.6600719-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T09:35:59.6600887-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T09:35:59.6601018-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:35:59.6606422-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T09:35:59.6606522-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T09:35:59.6607041-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T09:35:59.6607435-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T09:35:59.6609065-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T09:35:59.6609141-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T09:35:59.6609578-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T09:35:59.6609948-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T09:35:59.6611666-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T09:35:59.6611737-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T09:35:59.6612246-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T09:35:59.6612715-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T09:35:59.9338941-03:00:Remote executor port received: 32770
+2020-09-01T09:35:59.9343329-03:00:Creating executor TCP client on port 32770
+2020-09-01T09:35:59.9347945-03:00:Created executor TCP client on port 32770
+2020-09-01T09:35:59.9348063-03:00:Connecting to remote executor TCP server
+2020-09-01T09:35:59.9364298-03:00:Connected remote executor TCP server
+2020-09-01T09:35:59.9369026-03:00:trying to connect to Out of Process Executor the 1 attempt
+2020-09-01T09:35:59.9369155-03:00:Connection to Out of Process Executor established in the 1 attempt
+2020-09-01T09:36:00.1507136-03:00:2020-09-01T09:36:00.1496743-03:00:OutOfProcessTestAssemblyExecutor: initialized for D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll on test thread #0
+2020-09-01T09:36:00.1586173-03:00:Endpoint 48540 started
+2020-09-01T09:36:00.1840683-03:00:2020-09-01T09:36:00.1835468-03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-09-01T09:36:00.3297357-03:00:2020-09-01T09:36:00.3293205-03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-01T09:36:00.3332023-03:00:2020-09-01T09:36:00.3327458-03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-09-01T09:36:00.3391989-03:00:2020-09-01T09:36:00.3387327-03:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\euclides.okamoto\.nuget\packages\specflow\3.3.30\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-09-01T09:36:00.4812385-03:00:2020-09-01T09:36:00.4801247-03:00:Thread#0:T:-> Loading plugin D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-09-01T09:36:00.4844621-03:00:2020-09-01T09:36:00.4832783-03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-01T09:36:00.4936513-03:00:2020-09-01T09:36:00.4926001-03:00:Thread#0:T:-> Using default config
+2020-09-01T09:36:00.5083769-03:00:2020-09-01T09:36:00.5071370-03:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-09-01T09:36:00.5099590-03:00:2020-09-01T09:36:00.5091360-03:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-09-01T09:36:00.5115284-03:00:2020-09-01T09:36:00.5107377-03:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\euclides.okamoto\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-09-01T09:36:00.5135928-03:00:2020-09-01T09:36:00.5128516-03:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-09-01T09:36:00.5147374-03:00:2020-09-01T09:36:00.5141345-03:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-09-01T09:36:00.5160114-03:00:2020-09-01T09:36:00.5153832-03:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\euclides.okamoto\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-09-01T09:36:00.5290688-03:00:2020-09-01T09:36:00.5282201-03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T09:36:00.5301185-03:00:2020-09-01T09:36:00.5295672-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-09-01T09:36:00.5313904-03:00:2020-09-01T09:36:00.5308417-03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-09-01T09:36:00.5814586-03:00:2020-09-01T09:36:00.5806087-03:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-09-01T09:36:00.5821093-03:00:2020-09-01T09:36:00.5818035-03:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-09-01T09:36:00.5828804-03:00:2020-09-01T09:36:00.5825624-03:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\euclides.okamoto\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-09-01T09:36:00.8651646-03:00:Thread#0: Test #5/0 is started on thread #0
+2020-09-01T09:36:00.8901554-03:00:2020-09-01T09:36:00.8897028-03:00:Assembly resolving Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-01T09:36:00.8906873-03:00:2020-09-01T09:36:00.8904292-03:00:[AssemblyCache] Trying to resolve 'Api' from .deps.json file
+2020-09-01T09:36:00.8916505-03:00:2020-09-01T09:36:00.8913955-03:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'Api', found in dependency map, but unable to resolve a path in ['Api.dll']
+2020-09-01T09:36:00.8920783-03:00:2020-09-01T09:36:00.8918614-03:00:[AssemblyCache] Could not resolve 'Api' from .deps.json
+2020-09-01T09:36:00.8948248-03:00:2020-09-01T09:36:00.8945740-03:00:[AssemblyCache] Trying to resolve 'Api' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:36:00.8984502-03:00:2020-09-01T09:36:00.8981092-03:00:[AssemblyCache] Trying to resolve 'Api' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Api.dll'
+2020-09-01T09:36:00.8990662-03:00:2020-09-01T09:36:00.8987764-03:00:[AssemblyCache] Found file 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Api.dll' for assembly 'Api'
+2020-09-01T09:36:00.9252921-03:00:2020-09-01T09:36:00.9248714-03:00:[AssemblyCache] Resolved 'Api' to D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Api.dll
+2020-09-01T09:36:00.9260154-03:00:2020-09-01T09:36:00.9257357-03:00:Assembly resolving Microsoft.EntityFrameworkCore, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T09:36:00.9272707-03:00:2020-09-01T09:36:00.9262874-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore' from .deps.json file
+2020-09-01T09:36:00.9280802-03:00:2020-09-01T09:36:00.9277534-03:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.entityframeworkcore\3.1.7\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll'
+2020-09-01T09:36:00.9313951-03:00:2020-09-01T09:36:00.9309783-03:00:Assembly resolving Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2020-09-01T09:36:00.9319334-03:00:2020-09-01T09:36:00.9316548-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Bcl.AsyncInterfaces' from .deps.json file
+2020-09-01T09:36:00.9326695-03:00:2020-09-01T09:36:00.9323520-03:00:[AssemblyCache] Resolved 'Microsoft.Bcl.AsyncInterfaces' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll'
+2020-09-01T09:36:00.9352604-03:00:2020-09-01T09:36:00.9347900-03:00:Assembly resolving Microsoft.EntityFrameworkCore, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T09:36:00.9889212-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T09:36:00.9889998-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-09-01T09:36:00.9890073-03:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-09-01T09:36:00.9890165-03:00:Thread#0:Scheduler: No more tests for thread
+2020-09-01T09:36:01.0271024-03:00:Thread#0: Test #5/0 is finished on thread #0 as InitializationFailed within 0,160775 seconds
+2020-09-01T09:36:01.0383804-03:00:2020-09-01T09:36:01.0362240-03:00:Got Deinitialize Signal
+2020-09-01T09:36:01.0429778-03:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2020-09-01T09:36:01.0438138-03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-09-01T09:36:01.0451422-03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-09-01T09:36:01.0473860-03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T09:36:01.0474068-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2020-09-01T09:36:01.0474117-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2020-09-01T09:36:01.0474168-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:36:01.0474233-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-09-01T09:36:01.0474463-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-09-01T09:36:01.0474609-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T09:36:01.0482786-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T09:36:01.0482892-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\System.Diagnostics.Process.resources.dll'
+2020-09-01T09:36:01.0483394-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\System.Diagnostics.Process.resources.exe'
+2020-09-01T09:36:01.0483828-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T09:36:01.0485476-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T09:36:01.0485596-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\System.Diagnostics.Process.resources.dll'
+2020-09-01T09:36:01.0486042-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\System.Diagnostics.Process.resources.exe'
+2020-09-01T09:36:01.0486468-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T09:36:01.0488338-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T09:36:01.0488410-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\System.Diagnostics.Process.resources.dll'
+2020-09-01T09:36:01.0488954-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\System.Diagnostics.Process.resources.exe'
+2020-09-01T09:36:01.0489482-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T09:36:01.0492995-03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T09:36:01.0603099-03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-09-01T09:36:01.0603455-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-09-01T09:36:01.0603487-03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-09-01T09:36:01.0624380-03:00;Thread#12;Info;test run finished
+2020-09-01T09:36:01.0626352-03:00;Thread#12;Info;publishing test results
+2020-09-01T09:36:01.0628242-03:00;Thread#12;Info;Not publishing results.
+2020-09-01T09:36:01.0629101-03:00;Thread#12;Info;test results published
+2020-09-01T09:36:01.0629858-03:00;Thread#12;Info;generating reports
+2020-09-01T09:36:01.1769724-03:00;Thread#12;Info;Starting external report generation process
+2020-09-01T09:36:04.4316861-03:00;Thread#12;Info;Successfully generated reports.
+2020-09-01T09:36:04.4353919-03:00;Thread#12;Info;Successfully generated reports
+2020-09-01T09:36:04.4503232-03:00:Total: 1
+2020-09-01T09:36:04.4528807-03:00:Succeeded: 0
+2020-09-01T09:36:04.4534105-03:00:Ignored: 0
+2020-09-01T09:36:04.4541429-03:00:Pending: 0
+2020-09-01T09:36:04.4541872-03:00:Skipped: 0
+2020-09-01T09:36:04.4555027-03:00:Failed: 1
+2020-09-01T09:36:04.4769880-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-09-01T09:36:04.4771955-03:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\prj\dimas\TestResults\Unnamed project__2020-09-01T093558.html'
+========== End of log file ==========

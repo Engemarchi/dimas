@@ -1,0 +1,267 @@
+﻿2020-09-01T10:59:44.3218272-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-09-01T10:59:44.3220872-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.41 in Framework netcore31 in x64 mode execution started
+2020-09-01T10:59:44.3220932-03:00;VSTestExecutionThread;Info;TestAdapter Location: D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-09-01T10:59:44.3243040-03:00;VSTestExecutionThread;Info;Current UserName: 'euclides.okamoto', MachineName: 'TI0637'
+2020-09-01T10:59:44.3612821-03:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll
+2020-09-01T10:59:44.3615286-03:00;VSTestExecutionThread;Info;Output folder configured to "D:\prj\dimas\TestResults" (default)
+2020-09-01T10:59:44.3615991-03:00;VSTestExecutionThread;Info;Profile: 
+2020-09-01T10:59:44.4166998-03:00;VSTestExecutionThread;Info;Log file path: D:\prj\dimas\TestResults\Unnamed project__2020-09-01T105944.log
+2020-09-01T10:59:44.4235557-03:00;Thread#12;Info;Checking activation
+2020-09-01T10:59:44.5268933-03:00;Thread#12;Info;Activated.
+2020-09-01T10:59:44.5271451-03:00;Thread#12;Info;Activation check completed
+2020-09-01T10:59:44.5272410-03:00;Thread#12;Info;Starting test run
+2020-09-01T10:59:44.6267635-03:00;Thread#12;Info;Discovering target: Default
+2020-09-01T10:59:44.6269712-03:00;Thread#12;Info;Discovering tests from assembly: D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll
+2020-09-01T10:59:44.7293977-03:00;Thread#12;Info;Discovered tests from assembly: D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll
+2020-09-01T10:59:44.7307603-03:00:Test Suite Dump
+2020-09-01T10:59:44.7323902-03:00:#0: Unnamed project/ - 
+2020-09-01T10:59:44.7324097-03:00:#1: Default - 
+2020-09-01T10:59:44.7324124-03:00:#2: api-test - 
+2020-09-01T10:59:44.7324142-03:00:#3: Autenticação de Usuário - 
+2020-09-01T10:59:44.7337646-03:00:#4: Autentica Usuário e Senha corretos - TestAssembly:api-test/Feature:Autentica%c3%a7%c3%a3o+de+Usu%c3%a1rio/Scenario:Autentica+Usu%c3%a1rio+e+Senha+corretos
+2020-09-01T10:59:44.7338299-03:00:#5: Autentica Usuário correto e Senha incorreta - TestAssembly:api-test/Feature:Autentica%c3%a7%c3%a3o+de+Usu%c3%a1rio/Scenario:Autentica+Usu%c3%a1rio+correto+e+Senha+incorreta
+2020-09-01T10:59:44.7338591-03:00:#6: Autentica Usuário incorreto e Senha correta - TestAssembly:api-test/Feature:Autentica%c3%a7%c3%a3o+de+Usu%c3%a1rio/Scenario:Autentica+Usu%c3%a1rio+incorreto+e+Senha+correta
+2020-09-01T10:59:44.7339137-03:00:#7: Autentica Usuário incorreto e Senha incorreta - TestAssembly:api-test/Feature:Autentica%c3%a7%c3%a3o+de+Usu%c3%a1rio/Scenario:Autentica+Usu%c3%a1rio+incorreto+e+Senha+incorreta
+2020-09-01T10:59:44.7340030-03:00:End: Test Suite Dump
+2020-09-01T10:59:44.7553754-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T10:59:44.7576118-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-09-01T10:59:44.7576872-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-09-01T10:59:44.7614218-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T10:59:44.7614347-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-09-01T10:59:44.7614368-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-09-01T10:59:44.7614397-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-09-01T10:59:44.7621979-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-09-01T10:59:44.7636745-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-09-01T10:59:44.7661321-03:00:Thread #0: creating new test thread executor for api-test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-09-01T10:59:44.7711711-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-01T10:59:44.7715078-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-01T10:59:44.7739227-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-09-01T10:59:44.7756917-03:00:starting Out Of Process Executor
+2020-09-01T10:59:44.7769173-03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T10:59:44.7793025-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-09-01T10:59:44.7793148-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-09-01T10:59:44.7804656-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T10:59:44.7807595-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T10:59:44.7808338-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T10:59:44.7808556-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T10:59:44.7902441-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T10:59:44.7902615-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T10:59:44.7903249-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T10:59:44.7903660-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T10:59:44.7905514-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T10:59:44.7905590-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T10:59:44.7906059-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T10:59:44.7906420-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T10:59:44.7908359-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T10:59:44.7908445-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T10:59:44.7909196-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T10:59:44.7909625-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T10:59:44.7928856-03:00:Starting callback TCP Rpc server
+2020-09-01T10:59:44.8123097-03:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-09-01T10:59:44.8123566-03:00:Started callback TCP Rpc server on port 32768
+2020-09-01T10:59:44.8123589-03:00:Starting logger TCP Rpc server
+2020-09-01T10:59:44.8151070-03:00:Asynchronously starting background TCP Rpc Server on port 32770
+2020-09-01T10:59:44.8151269-03:00:Started logger TCP Rpc server on port 32770
+2020-09-01T10:59:44.9100627-03:00:Executing test executor at 'dotnet' 'exec "D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 16804 --uniqueId "2020-09-01T105944" --outputFolder "D:\prj\dimas\TestResults" --callbackPort 32768 --loggerPort 32770' in 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T10:59:44.9175631-03:00:Executor with PID 23748 has been started successfully.
+2020-09-01T10:59:44.9235286-03:00:Out of Process Executor 23748 started
+2020-09-01T10:59:44.9235462-03:00:Waiting for endpoint
+2020-09-01T10:59:45.2413158-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T10:59:45.2413336-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' from .deps.json file
+2020-09-01T10:59:45.2413362-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' from .deps.json
+2020-09-01T10:59:45.2413386-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T10:59:45.2413408-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.dll'
+2020-09-01T10:59:45.2413555-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.exe'
+2020-09-01T10:59:45.2413680-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T10:59:45.2419754-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T10:59:45.2419844-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\StreamJsonRpc.resources.dll'
+2020-09-01T10:59:45.2420272-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\StreamJsonRpc.resources.exe'
+2020-09-01T10:59:45.2420603-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T10:59:45.2422083-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T10:59:45.2422148-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\StreamJsonRpc.resources.dll'
+2020-09-01T10:59:45.2422547-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\StreamJsonRpc.resources.exe'
+2020-09-01T10:59:45.2422868-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T10:59:45.2424501-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T10:59:45.2424566-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\StreamJsonRpc.resources.dll'
+2020-09-01T10:59:45.2425026-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\StreamJsonRpc.resources.exe'
+2020-09-01T10:59:45.2425348-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T10:59:45.2430570-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T10:59:45.2435726-03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T10:59:45.2435867-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-09-01T10:59:45.2435886-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-09-01T10:59:45.2435910-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T10:59:45.2435921-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T10:59:45.2436070-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T10:59:45.2436199-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T10:59:45.2441131-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T10:59:45.2441211-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T10:59:45.2441627-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T10:59:45.2441974-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T10:59:45.2443418-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T10:59:45.2443491-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T10:59:45.2443877-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T10:59:45.2444203-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T10:59:45.2445777-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T10:59:45.2445843-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T10:59:45.2446291-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T10:59:45.2446784-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T10:59:45.4924881-03:00:Remote executor port received: 32771
+2020-09-01T10:59:45.4928602-03:00:Creating executor TCP client on port 32771
+2020-09-01T10:59:45.4932640-03:00:Created executor TCP client on port 32771
+2020-09-01T10:59:45.4932722-03:00:Connecting to remote executor TCP server
+2020-09-01T10:59:45.4941366-03:00:Connected remote executor TCP server
+2020-09-01T10:59:45.4943284-03:00:trying to connect to Out of Process Executor the 1 attempt
+2020-09-01T10:59:45.4943381-03:00:Connection to Out of Process Executor established in the 1 attempt
+2020-09-01T10:59:45.6479165-03:00:2020-09-01T10:59:45.6468427-03:00:OutOfProcessTestAssemblyExecutor: initialized for D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll on test thread #0
+2020-09-01T10:59:45.6551950-03:00:Endpoint 23748 started
+2020-09-01T10:59:45.6751853-03:00:2020-09-01T10:59:45.6747748-03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-09-01T10:59:45.8093296-03:00:2020-09-01T10:59:45.8089771-03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-01T10:59:45.8120243-03:00:2020-09-01T10:59:45.8117563-03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-09-01T10:59:45.8148370-03:00:2020-09-01T10:59:45.8145708-03:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\euclides.okamoto\.nuget\packages\specflow\3.3.30\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-09-01T10:59:45.9306808-03:00:2020-09-01T10:59:45.9295928-03:00:Thread#0:T:-> Loading plugin D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-09-01T10:59:45.9331376-03:00:2020-09-01T10:59:45.9322144-03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-01T10:59:45.9412424-03:00:2020-09-01T10:59:45.9402141-03:00:Thread#0:T:-> Using default config
+2020-09-01T10:59:45.9549205-03:00:2020-09-01T10:59:45.9513847-03:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-09-01T10:59:45.9565628-03:00:2020-09-01T10:59:45.9557052-03:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-09-01T10:59:45.9580420-03:00:2020-09-01T10:59:45.9572879-03:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\euclides.okamoto\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-09-01T10:59:45.9598390-03:00:2020-09-01T10:59:45.9591666-03:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-09-01T10:59:45.9610277-03:00:2020-09-01T10:59:45.9603640-03:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-09-01T10:59:45.9622412-03:00:2020-09-01T10:59:45.9616552-03:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\euclides.okamoto\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-09-01T10:59:45.9742276-03:00:2020-09-01T10:59:45.9734491-03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T10:59:45.9751841-03:00:2020-09-01T10:59:45.9746792-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-09-01T10:59:45.9763728-03:00:2020-09-01T10:59:45.9758660-03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-09-01T10:59:45.9943841-03:00:2020-09-01T10:59:45.9936093-03:00:Thread#0:T:-> error: The binding methods for before/after feature and before/after test run events must be static! api-test:Api.Test.Steps.AutenticacaoDeUsuarioSteps.Init()
+2020-09-01T10:59:46.0308382-03:00:2020-09-01T10:59:46.0303446-03:00:OutOfProcessTestAssemblyExecutor: RunTest error: TechTalk.SpecFlow.BindingException: The binding methods for before/after feature and before/after test run events must be static! api-test:Api.Test.Steps.AutenticacaoDeUsuarioSteps.Init()
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.GetNonStaticEventError(IBindingMethod method) in D:\a\1\s\TechTalk.SpecFlow\ErrorHandling\ErrorProvider.cs:line 128
+   at TechTalk.SpecFlow.Bindings.Discovery.RuntimeBindingSourceProcessor.ValidateHook(BindingSourceMethod bindingSourceMethod, BindingSourceAttribute hookAttribute, HookType hookType) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\RuntimeBindingSourceProcessor.cs:line 54
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.ProcessHookAttribute(BindingSourceMethod bindingSourceMethod, BindingSourceAttribute hookAttribute, BindingScope scope) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 159
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.<>c__DisplayClass21_0.<ProcessHookAttribute>b__1(BindingScope scope) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 140
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.ProcessHookAttribute(BindingSourceMethod bindingSourceMethod, BindingScope[] methodScopes, BindingSourceAttribute hookAttribute) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 141
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(BindingSourceMethod bindingSourceMethod, BindingScope[] methodScopes) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 112
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.ProcessMethod(BindingSourceMethod bindingSourceMethod) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 99
+   at TechTalk.SpecFlow.Bindings.Discovery.RuntimeBindingRegistryBuilder.BuildBindingsFromType(Type type) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\RuntimeBindingRegistryBuilder.cs:line 49
+   at TechTalk.SpecFlow.Bindings.Discovery.RuntimeBindingRegistryBuilder.BuildBindingsFromAssembly(Assembly assembly) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\RuntimeBindingRegistryBuilder.cs:line 25
+   at TechTalk.SpecFlow.TestRunnerManager.BuildBindingRegistry(IEnumerable`1 bindingAssemblies) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 92
+   at TechTalk.SpecFlow.TestRunnerManager.InitializeBindingRegistry(ITestRunner testRunner) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 75
+   at TechTalk.SpecFlow.TestRunnerManager.CreateTestRunner(Int32 threadId) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 63
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunnerWithoutExceptionHandling(Int32 threadId) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 155
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(Int32 threadId) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 136
+   at TechTalk.SpecFlow.TestRunnerManager.OnTestRunStart(Assembly testAssembly, IContainerBuilder containerBuilder) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 232
+   at Api_Test_SpecFlowPlusRunnerAssemblyHooks.AssemblyInitialize() in D:\prj\dimas\api-test\obj\Debug\netcoreapp3.1\SpecFlow.Plus.Runner.AssemblyHooks.cs:line 8
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProcess.OutOfProcessTestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+2020-09-01T10:59:46.0316066-03:00:2020-09-01T10:59:46.0312545-03:00:OutOfProcessTestAssemblyExecutorReceiver - Error at RunTests - TechTalk.SpecFlow.BindingException: The binding methods for before/after feature and before/after test run events must be static! api-test:Api.Test.Steps.AutenticacaoDeUsuarioSteps.Init()
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.GetNonStaticEventError(IBindingMethod method) in D:\a\1\s\TechTalk.SpecFlow\ErrorHandling\ErrorProvider.cs:line 128
+   at TechTalk.SpecFlow.Bindings.Discovery.RuntimeBindingSourceProcessor.ValidateHook(BindingSourceMethod bindingSourceMethod, BindingSourceAttribute hookAttribute, HookType hookType) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\RuntimeBindingSourceProcessor.cs:line 54
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.ProcessHookAttribute(BindingSourceMethod bindingSourceMethod, BindingSourceAttribute hookAttribute, BindingScope scope) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 159
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.<>c__DisplayClass21_0.<ProcessHookAttribute>b__1(BindingScope scope) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 140
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.ProcessHookAttribute(BindingSourceMethod bindingSourceMethod, BindingScope[] methodScopes, BindingSourceAttribute hookAttribute) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 141
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.ProcessHooks(BindingSourceMethod bindingSourceMethod, BindingScope[] methodScopes) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 112
+   at TechTalk.SpecFlow.Bindings.Discovery.BindingSourceProcessor.ProcessMethod(BindingSourceMethod bindingSourceMethod) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\BindingSourceProcessor.cs:line 99
+   at TechTalk.SpecFlow.Bindings.Discovery.RuntimeBindingRegistryBuilder.BuildBindingsFromType(Type type) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\RuntimeBindingRegistryBuilder.cs:line 49
+   at TechTalk.SpecFlow.Bindings.Discovery.RuntimeBindingRegistryBuilder.BuildBindingsFromAssembly(Assembly assembly) in D:\a\1\s\TechTalk.SpecFlow\Bindings\Discovery\RuntimeBindingRegistryBuilder.cs:line 25
+   at TechTalk.SpecFlow.TestRunnerManager.BuildBindingRegistry(IEnumerable`1 bindingAssemblies) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 92
+   at TechTalk.SpecFlow.TestRunnerManager.InitializeBindingRegistry(ITestRunner testRunner) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 75
+   at TechTalk.SpecFlow.TestRunnerManager.CreateTestRunner(Int32 threadId) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 63
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunnerWithoutExceptionHandling(Int32 threadId) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 155
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(Int32 threadId) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 136
+   at TechTalk.SpecFlow.TestRunnerManager.OnTestRunStart(Assembly testAssembly, IContainerBuilder containerBuilder) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 232
+   at Api_Test_SpecFlowPlusRunnerAssemblyHooks.AssemblyInitialize() in D:\prj\dimas\api-test\obj\Debug\netcoreapp3.1\SpecFlow.Plus.Runner.AssemblyHooks.cs:line 8
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProcess.OutOfProcessTestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProcess.OutOfProcessTestAssemblyExecutorReceiver.RunTests(TestThreadState testThreadState)
+2020-09-01T10:59:46.0595119-03:00:test thread #0 error: StreamJsonRpc.RemoteInvocationException: The binding methods for before/after feature and before/after test run events must be static! api-test:Api.Test.Steps.AutenticacaoDeUsuarioSteps.Init()
+   at StreamJsonRpc.JsonRpc.InvokeCoreAsync[TResult](Nullable`1 id, String targetName, IReadOnlyList`1 arguments, CancellationToken cancellationToken, Boolean isParameterObject)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.Invoke[T](String methodName, Object[] parameters)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.RemoteExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+2020-09-01T10:59:46.0605756-03:00:test thread error: TechTalk.SpecRun.Framework.SpecRunException: At least one test thread aborted.
+ ---> StreamJsonRpc.RemoteInvocationException: The binding methods for before/after feature and before/after test run events must be static! api-test:Api.Test.Steps.AutenticacaoDeUsuarioSteps.Init()
+   at StreamJsonRpc.JsonRpc.InvokeCoreAsync[TResult](Nullable`1 id, String targetName, IReadOnlyList`1 arguments, CancellationToken cancellationToken, Boolean isParameterObject)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.Invoke[T](String methodName, Object[] parameters)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.RemoteExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2020-09-01T10:59:46.0667071-03:00:Thread#-1: Test #4/0 is started on thread #-1
+2020-09-01T10:59:46.0691661-03:00:Thread#-1: Test #4/0 is finished on thread #-1 as Skipped within 0,000654 seconds
+2020-09-01T10:59:46.0731337-03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-09-01T10:59:46.0731899-03:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2020-09-01T10:59:46.0731953-03:00:Thread#-1:Scheduler: considering testitem #5 for thread -1
+2020-09-01T10:59:46.0731981-03:00:Thread#-1:Scheduler: using testitem #5 for thread -1
+2020-09-01T10:59:46.0732028-03:00:Thread#-1:Scheduler: Test #5 is scheduled for thread
+2020-09-01T10:59:46.0732636-03:00:Thread#-1: Test #5/0 is started on thread #-1
+2020-09-01T10:59:46.0733035-03:00:Thread#-1: Test #5/0 is finished on thread #-1 as Skipped within 7,2E-06 seconds
+2020-09-01T10:59:46.0734476-03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-09-01T10:59:46.0735200-03:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2020-09-01T10:59:46.0735229-03:00:Thread#-1:Scheduler: considering testitem #6 for thread -1
+2020-09-01T10:59:46.0735282-03:00:Thread#-1:Scheduler: using testitem #6 for thread -1
+2020-09-01T10:59:46.0735299-03:00:Thread#-1:Scheduler: Test #6 is scheduled for thread
+2020-09-01T10:59:46.0735405-03:00:Thread#-1: Test #6/0 is started on thread #-1
+2020-09-01T10:59:46.0735490-03:00:Thread#-1: Test #6/0 is finished on thread #-1 as Skipped within 1,4E-06 seconds
+2020-09-01T10:59:46.0736447-03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-09-01T10:59:46.0736546-03:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2020-09-01T10:59:46.0736567-03:00:Thread#-1:Scheduler: considering testitem #7 for thread -1
+2020-09-01T10:59:46.0736582-03:00:Thread#-1:Scheduler: using testitem #7 for thread -1
+2020-09-01T10:59:46.0736596-03:00:Thread#-1:Scheduler: Test #7 is scheduled for thread
+2020-09-01T10:59:46.0736788-03:00:Thread#-1: Test #7/0 is started on thread #-1
+2020-09-01T10:59:46.0736861-03:00:Thread#-1: Test #7/0 is finished on thread #-1 as Skipped within 1,4E-06 seconds
+2020-09-01T10:59:46.0737842-03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-09-01T10:59:46.0737955-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-09-01T10:59:46.0737972-03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-09-01T10:59:46.1066823-03:00;Thread#12;Info;test run finished
+2020-09-01T10:59:46.1068545-03:00;Thread#12;Info;publishing test results
+2020-09-01T10:59:46.1070679-03:00;Thread#12;Info;Not publishing results.
+2020-09-01T10:59:46.1071540-03:00;Thread#12;Info;test results published
+2020-09-01T10:59:46.1072702-03:00;Thread#12;Info;generating reports
+2020-09-01T10:59:46.2641757-03:00;Thread#12;Error;Newtonsoft.Json.JsonSerializationException thrown during serialization: Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'ManifestModule' with type 'System.Reflection.RuntimeModule'. Path 'Summary.FrameworkErrorException.InnerException.TargetSite.Module.Assembly'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Newtonsoft.Json.JsonSerializer.Serialize(TextWriter textWriter, Object value)
+   at TechTalk.SpecRun.Framework.Services.JsonNetSerializer.Serialize[T](T value, FSharpOption`1 target)
+2020-09-01T10:59:46.2644796-03:00;Thread#12;Error;Failed writing reporting data to file "C:\Users\euclides.okamoto\AppData\Local\Temp\tmpF7FE.tmp".
+2020-09-01T10:59:46.2736361-03:00;Thread#12;Info;Failed generating reports
+2020-09-01T10:59:46.2796709-03:00:Total: 4
+2020-09-01T10:59:46.2813841-03:00:Succeeded: 0
+2020-09-01T10:59:46.2816708-03:00:Ignored: 0
+2020-09-01T10:59:46.2819072-03:00:Pending: 0
+2020-09-01T10:59:46.2819147-03:00:Skipped: 4
+2020-09-01T10:59:46.2821394-03:00:Failed: 0
+2020-09-01T10:59:46.2830365-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

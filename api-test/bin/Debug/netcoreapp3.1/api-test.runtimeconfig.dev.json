@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\euclides.okamoto\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\euclides.okamoto\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,659 @@
+﻿2020-09-01T11:35:14.4294019-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-09-01T11:35:14.4296326-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.41 in Framework netcore31 in x64 mode execution started
+2020-09-01T11:35:14.4296363-03:00;VSTestExecutionThread;Info;TestAdapter Location: D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-09-01T11:35:14.4318297-03:00;VSTestExecutionThread;Info;Current UserName: 'euclides.okamoto', MachineName: 'TI0637'
+2020-09-01T11:35:14.4746815-03:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll
+2020-09-01T11:35:14.4749347-03:00;VSTestExecutionThread;Info;Output folder configured to "D:\prj\dimas\TestResults" (default)
+2020-09-01T11:35:14.4750236-03:00;VSTestExecutionThread;Info;Profile: 
+2020-09-01T11:35:14.5321007-03:00;VSTestExecutionThread;Info;Log file path: D:\prj\dimas\TestResults\Unnamed project__2020-09-01T113514.log
+2020-09-01T11:35:14.5369911-03:00;Thread#12;Info;Checking activation
+2020-09-01T11:35:14.6644148-03:00;Thread#12;Info;Activated.
+2020-09-01T11:35:14.6647358-03:00;Thread#12;Info;Activation check completed
+2020-09-01T11:35:14.6648595-03:00;Thread#12;Info;Starting test run
+2020-09-01T11:35:14.7868357-03:00;Thread#12;Info;Discovering target: Default
+2020-09-01T11:35:14.7870491-03:00;Thread#12;Info;Discovering tests from assembly: D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll
+2020-09-01T11:35:14.9241320-03:00;Thread#12;Info;Discovered tests from assembly: D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll
+2020-09-01T11:35:14.9256269-03:00:Test Suite Dump
+2020-09-01T11:35:14.9278965-03:00:#0: Unnamed project/ - 
+2020-09-01T11:35:14.9280920-03:00:#1: Default - 
+2020-09-01T11:35:14.9282312-03:00:#2: api-test - 
+2020-09-01T11:35:14.9282533-03:00:#3: Autenticação de Usuário - 
+2020-09-01T11:35:14.9314863-03:00:#4: Autentica Usuário e Senha corretos - TestAssembly:api-test/Feature:Autentica%c3%a7%c3%a3o+de+Usu%c3%a1rio/Scenario:Autentica+Usu%c3%a1rio+e+Senha+corretos
+2020-09-01T11:35:14.9315498-03:00:#5: Autentica Usuário correto e Senha incorreta - TestAssembly:api-test/Feature:Autentica%c3%a7%c3%a3o+de+Usu%c3%a1rio/Scenario:Autentica+Usu%c3%a1rio+correto+e+Senha+incorreta
+2020-09-01T11:35:14.9315636-03:00:#6: Autentica Usuário incorreto e Senha correta - TestAssembly:api-test/Feature:Autentica%c3%a7%c3%a3o+de+Usu%c3%a1rio/Scenario:Autentica+Usu%c3%a1rio+incorreto+e+Senha+correta
+2020-09-01T11:35:14.9315792-03:00:#7: Autentica Usuário incorreto e Senha incorreta - TestAssembly:api-test/Feature:Autentica%c3%a7%c3%a3o+de+Usu%c3%a1rio/Scenario:Autentica+Usu%c3%a1rio+incorreto+e+Senha+incorreta
+2020-09-01T11:35:14.9316496-03:00:End: Test Suite Dump
+2020-09-01T11:35:14.9544831-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T11:35:14.9566631-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-09-01T11:35:14.9567495-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-09-01T11:35:14.9626726-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T11:35:14.9626949-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-09-01T11:35:14.9626973-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-09-01T11:35:14.9627015-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-09-01T11:35:14.9637597-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-09-01T11:35:14.9654147-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-09-01T11:35:14.9680933-03:00:Thread #0: creating new test thread executor for api-test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-09-01T11:35:14.9711149-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-01T11:35:14.9713490-03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-01T11:35:14.9736985-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-09-01T11:35:14.9756776-03:00:starting Out Of Process Executor
+2020-09-01T11:35:14.9778398-03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T11:35:14.9831165-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-09-01T11:35:14.9831407-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-09-01T11:35:14.9844950-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:14.9848758-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T11:35:14.9849626-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T11:35:14.9849900-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:14.9924205-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:14.9924598-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T11:35:14.9925459-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T11:35:14.9926208-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:14.9930507-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:14.9930638-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T11:35:14.9931511-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T11:35:14.9933144-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:14.9946068-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:14.9947733-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Validation.dll'
+2020-09-01T11:35:14.9951292-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Validation.exe'
+2020-09-01T11:35:14.9952282-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:14.9985225-03:00:Starting callback TCP Rpc server
+2020-09-01T11:35:15.0230902-03:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-09-01T11:35:15.0231489-03:00:Started callback TCP Rpc server on port 32768
+2020-09-01T11:35:15.0231527-03:00:Starting logger TCP Rpc server
+2020-09-01T11:35:15.0291058-03:00:Asynchronously starting background TCP Rpc Server on port 32770
+2020-09-01T11:35:15.0291829-03:00:Started logger TCP Rpc server on port 32770
+2020-09-01T11:35:15.1489029-03:00:Executing test executor at 'dotnet' 'exec "D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 7208 --uniqueId "2020-09-01T113514" --outputFolder "D:\prj\dimas\TestResults" --callbackPort 32768 --loggerPort 32770' in 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:15.1572313-03:00:Executor with PID 28568 has been started successfully.
+2020-09-01T11:35:15.1632881-03:00:Out of Process Executor 28568 started
+2020-09-01T11:35:15.1633315-03:00:Waiting for endpoint
+2020-09-01T11:35:15.5573058-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T11:35:15.5573756-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' from .deps.json file
+2020-09-01T11:35:15.5573789-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' from .deps.json
+2020-09-01T11:35:15.5573853-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:15.5573879-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.dll'
+2020-09-01T11:35:15.5574131-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.exe'
+2020-09-01T11:35:15.5574300-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:15.5584652-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:15.5584768-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\StreamJsonRpc.resources.dll'
+2020-09-01T11:35:15.5585321-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\StreamJsonRpc.resources.exe'
+2020-09-01T11:35:15.5585790-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:15.5587674-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:15.5587761-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\StreamJsonRpc.resources.dll'
+2020-09-01T11:35:15.5588360-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\StreamJsonRpc.resources.exe'
+2020-09-01T11:35:15.5588790-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:15.5590929-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:15.5591014-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\StreamJsonRpc.resources.dll'
+2020-09-01T11:35:15.5591606-03:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\StreamJsonRpc.resources.exe'
+2020-09-01T11:35:15.5592004-03:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:15.5599049-03:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T11:35:15.5622981-03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T11:35:15.5625533-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-09-01T11:35:15.5625782-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-09-01T11:35:15.5626047-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:15.5626106-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T11:35:15.5630953-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T11:35:15.5631790-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:15.5644731-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:15.5644927-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T11:35:15.5645927-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T11:35:15.5646787-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:15.5650094-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:15.5650226-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T11:35:15.5651000-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T11:35:15.5651742-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:15.5654967-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:15.5655087-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Threading.dll'
+2020-09-01T11:35:15.5656015-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.VisualStudio.Threading.exe'
+2020-09-01T11:35:15.5656999-03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:15.8422969-03:00:Remote executor port received: 32771
+2020-09-01T11:35:15.8428261-03:00:Creating executor TCP client on port 32771
+2020-09-01T11:35:15.8441007-03:00:Created executor TCP client on port 32771
+2020-09-01T11:35:15.8442706-03:00:Connecting to remote executor TCP server
+2020-09-01T11:35:15.8469144-03:00:Connected remote executor TCP server
+2020-09-01T11:35:15.8472497-03:00:trying to connect to Out of Process Executor the 1 attempt
+2020-09-01T11:35:15.8472632-03:00:Connection to Out of Process Executor established in the 1 attempt
+2020-09-01T11:35:16.0103325-03:00:2020-09-01T11:35:16.0089014-03:00:OutOfProcessTestAssemblyExecutor: initialized for D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\api-test.dll on test thread #0
+2020-09-01T11:35:16.0179762-03:00:Endpoint 28568 started
+2020-09-01T11:35:16.0386359-03:00:2020-09-01T11:35:16.0382343-03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-09-01T11:35:16.1761146-03:00:2020-09-01T11:35:16.1755657-03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-01T11:35:16.1815832-03:00:2020-09-01T11:35:16.1811486-03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-09-01T11:35:16.1845588-03:00:2020-09-01T11:35:16.1842262-03:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\euclides.okamoto\.nuget\packages\specflow\3.3.30\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-09-01T11:35:16.3002567-03:00:2020-09-01T11:35:16.2990849-03:00:Thread#0:T:-> Loading plugin D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-09-01T11:35:16.3028770-03:00:2020-09-01T11:35:16.3019170-03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-01T11:35:16.3078955-03:00:2020-09-01T11:35:16.3070400-03:00:Thread#0:T:-> Using default config
+2020-09-01T11:35:16.3237396-03:00:2020-09-01T11:35:16.3225441-03:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-09-01T11:35:16.3250332-03:00:2020-09-01T11:35:16.3243234-03:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-09-01T11:35:16.3266260-03:00:2020-09-01T11:35:16.3258353-03:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\euclides.okamoto\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-09-01T11:35:16.3286637-03:00:2020-09-01T11:35:16.3279918-03:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-09-01T11:35:16.3297701-03:00:2020-09-01T11:35:16.3291829-03:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-09-01T11:35:16.3312962-03:00:2020-09-01T11:35:16.3304821-03:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\euclides.okamoto\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-09-01T11:35:16.3426940-03:00:2020-09-01T11:35:16.3417930-03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T11:35:16.3437244-03:00:2020-09-01T11:35:16.3431882-03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-09-01T11:35:16.3449476-03:00:2020-09-01T11:35:16.3444220-03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-09-01T11:35:16.3790580-03:00:2020-09-01T11:35:16.3779676-03:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-09-01T11:35:16.3796948-03:00:2020-09-01T11:35:16.3794011-03:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-09-01T11:35:16.3803712-03:00:2020-09-01T11:35:16.3801090-03:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\euclides.okamoto\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-09-01T11:35:16.5721582-03:00:2020-09-01T11:35:16.5714626-03:00:Assembly resolving Microsoft.EntityFrameworkCore, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.5731619-03:00:2020-09-01T11:35:16.5725957-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore' from .deps.json file
+2020-09-01T11:35:16.5742044-03:00:2020-09-01T11:35:16.5737651-03:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.entityframeworkcore\3.1.7\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll'
+2020-09-01T11:35:16.5794252-03:00:2020-09-01T11:35:16.5768241-03:00:Assembly resolving Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2020-09-01T11:35:16.5811083-03:00:2020-09-01T11:35:16.5801092-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Bcl.AsyncInterfaces' from .deps.json file
+2020-09-01T11:35:16.5820220-03:00:2020-09-01T11:35:16.5816850-03:00:[AssemblyCache] Resolved 'Microsoft.Bcl.AsyncInterfaces' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll'
+2020-09-01T11:35:16.5834364-03:00:2020-09-01T11:35:16.5831206-03:00:Assembly resolving Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-01T11:35:16.5840137-03:00:2020-09-01T11:35:16.5837221-03:00:[AssemblyCache] Trying to resolve 'Api' from .deps.json file
+2020-09-01T11:35:16.5849002-03:00:2020-09-01T11:35:16.5846926-03:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'Api', found in dependency map, but unable to resolve a path in ['Api.dll']
+2020-09-01T11:35:16.5858971-03:00:2020-09-01T11:35:16.5851025-03:00:[AssemblyCache] Could not resolve 'Api' from .deps.json
+2020-09-01T11:35:16.5877146-03:00:2020-09-01T11:35:16.5873553-03:00:[AssemblyCache] Trying to resolve 'Api' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.5908200-03:00:2020-09-01T11:35:16.5904934-03:00:[AssemblyCache] Trying to resolve 'Api' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Api.dll'
+2020-09-01T11:35:16.5914028-03:00:2020-09-01T11:35:16.5911465-03:00:[AssemblyCache] Found file 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Api.dll' for assembly 'Api'
+2020-09-01T11:35:16.5921970-03:00:2020-09-01T11:35:16.5919040-03:00:[AssemblyCache] Resolved 'Api' to D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Api.dll
+2020-09-01T11:35:16.5929032-03:00:2020-09-01T11:35:16.5926186-03:00:Assembly resolving Microsoft.EntityFrameworkCore.InMemory, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.5934346-03:00:2020-09-01T11:35:16.5931271-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory' from .deps.json file
+2020-09-01T11:35:16.5963188-03:00:2020-09-01T11:35:16.5942774-03:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore.InMemory' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.entityframeworkcore.inmemory\3.1.7\lib\netstandard2.0\Microsoft.EntityFrameworkCore.InMemory.dll'
+2020-09-01T11:35:16.5984308-03:00:2020-09-01T11:35:16.5977821-03:00:Assembly resolving Microsoft.AspNetCore.Mvc.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.5990936-03:00:2020-09-01T11:35:16.5987390-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Core' from .deps.json file
+2020-09-01T11:35:16.5996017-03:00:2020-09-01T11:35:16.5993017-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Mvc.Core' from .deps.json
+2020-09-01T11:35:16.6000571-03:00:2020-09-01T11:35:16.5998030-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Core' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6005614-03:00:2020-09-01T11:35:16.6002953-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Core' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Core.dll'
+2020-09-01T11:35:16.6011456-03:00:2020-09-01T11:35:16.6008340-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Core' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Core.exe'
+2020-09-01T11:35:16.6016966-03:00:2020-09-01T11:35:16.6014513-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Mvc.Core' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6084674-03:00:2020-09-01T11:35:16.6080946-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Core' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:16.6090344-03:00:2020-09-01T11:35:16.6087551-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Core' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Mvc.Core.dll'
+2020-09-01T11:35:16.6096911-03:00:2020-09-01T11:35:16.6093781-03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Mvc.Core.dll' for assembly 'Microsoft.AspNetCore.Mvc.Core'
+2020-09-01T11:35:16.6135179-03:00:2020-09-01T11:35:16.6126168-03:00:[AssemblyCache] Resolved 'Microsoft.AspNetCore.Mvc.Core' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Mvc.Core.dll
+2020-09-01T11:35:16.6147933-03:00:2020-09-01T11:35:16.6143335-03:00:Assembly resolving Microsoft.AspNetCore.Mvc.Abstractions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6153703-03:00:2020-09-01T11:35:16.6150794-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Abstractions' from .deps.json file
+2020-09-01T11:35:16.6158991-03:00:2020-09-01T11:35:16.6156020-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Mvc.Abstractions' from .deps.json
+2020-09-01T11:35:16.6164968-03:00:2020-09-01T11:35:16.6161826-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Abstractions' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6169368-03:00:2020-09-01T11:35:16.6167000-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Abstractions' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Abstractions.dll'
+2020-09-01T11:35:16.6174066-03:00:2020-09-01T11:35:16.6172011-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Abstractions' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Abstractions.exe'
+2020-09-01T11:35:16.6178761-03:00:2020-09-01T11:35:16.6176781-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Mvc.Abstractions' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6189965-03:00:2020-09-01T11:35:16.6187416-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Abstractions' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:16.6194632-03:00:2020-09-01T11:35:16.6192170-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Mvc.Abstractions' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Mvc.Abstractions.dll'
+2020-09-01T11:35:16.6198768-03:00:2020-09-01T11:35:16.6196453-03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Mvc.Abstractions.dll' for assembly 'Microsoft.AspNetCore.Mvc.Abstractions'
+2020-09-01T11:35:16.6207285-03:00:2020-09-01T11:35:16.6205354-03:00:[AssemblyCache] Resolved 'Microsoft.AspNetCore.Mvc.Abstractions' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Mvc.Abstractions.dll
+2020-09-01T11:35:16.6213218-03:00:2020-09-01T11:35:16.6211224-03:00:Assembly resolving Microsoft.AspNetCore.Http, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6216817-03:00:2020-09-01T11:35:16.6214993-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http' from .deps.json file
+2020-09-01T11:35:16.6220192-03:00:2020-09-01T11:35:16.6218617-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Http' from .deps.json
+2020-09-01T11:35:16.6223524-03:00:2020-09-01T11:35:16.6221832-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6226840-03:00:2020-09-01T11:35:16.6225266-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.dll'
+2020-09-01T11:35:16.6230424-03:00:2020-09-01T11:35:16.6228810-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.exe'
+2020-09-01T11:35:16.6234055-03:00:2020-09-01T11:35:16.6231932-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Http' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6245435-03:00:2020-09-01T11:35:16.6243088-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:16.6249292-03:00:2020-09-01T11:35:16.6247368-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Http.dll'
+2020-09-01T11:35:16.6254046-03:00:2020-09-01T11:35:16.6252151-03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Http.dll' for assembly 'Microsoft.AspNetCore.Http'
+2020-09-01T11:35:16.6283893-03:00:2020-09-01T11:35:16.6264252-03:00:[AssemblyCache] Resolved 'Microsoft.AspNetCore.Http' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Http.dll
+2020-09-01T11:35:16.6298648-03:00:2020-09-01T11:35:16.6292782-03:00:Assembly resolving Microsoft.AspNetCore.Http.Abstractions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6304338-03:00:2020-09-01T11:35:16.6301581-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Abstractions' from .deps.json file
+2020-09-01T11:35:16.6310607-03:00:2020-09-01T11:35:16.6306912-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Http.Abstractions' from .deps.json
+2020-09-01T11:35:16.6316268-03:00:2020-09-01T11:35:16.6313624-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Abstractions' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6320942-03:00:2020-09-01T11:35:16.6318254-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Abstractions' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll'
+2020-09-01T11:35:16.6326362-03:00:2020-09-01T11:35:16.6323553-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Abstractions' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.exe'
+2020-09-01T11:35:16.6332203-03:00:2020-09-01T11:35:16.6329303-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Http.Abstractions' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6343155-03:00:2020-09-01T11:35:16.6340565-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Abstractions' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:16.6348174-03:00:2020-09-01T11:35:16.6345501-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Abstractions' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Http.Abstractions.dll'
+2020-09-01T11:35:16.6353747-03:00:2020-09-01T11:35:16.6351247-03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Http.Abstractions.dll' for assembly 'Microsoft.AspNetCore.Http.Abstractions'
+2020-09-01T11:35:16.6363505-03:00:2020-09-01T11:35:16.6360944-03:00:[AssemblyCache] Resolved 'Microsoft.AspNetCore.Http.Abstractions' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Http.Abstractions.dll
+2020-09-01T11:35:16.6369977-03:00:2020-09-01T11:35:16.6367629-03:00:Assembly resolving Microsoft.AspNetCore.Http.Features, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6374616-03:00:2020-09-01T11:35:16.6372148-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Features' from .deps.json file
+2020-09-01T11:35:16.6379044-03:00:2020-09-01T11:35:16.6376639-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Http.Features' from .deps.json
+2020-09-01T11:35:16.6383898-03:00:2020-09-01T11:35:16.6381386-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Features' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6388027-03:00:2020-09-01T11:35:16.6385488-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Features' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll'
+2020-09-01T11:35:16.6393318-03:00:2020-09-01T11:35:16.6390536-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Features' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.exe'
+2020-09-01T11:35:16.6398234-03:00:2020-09-01T11:35:16.6395767-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Http.Features' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.6407271-03:00:2020-09-01T11:35:16.6405312-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Features' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:16.6411615-03:00:2020-09-01T11:35:16.6409175-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Http.Features' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Http.Features.dll'
+2020-09-01T11:35:16.6417430-03:00:2020-09-01T11:35:16.6414288-03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Http.Features.dll' for assembly 'Microsoft.AspNetCore.Http.Features'
+2020-09-01T11:35:16.6426899-03:00:2020-09-01T11:35:16.6423927-03:00:[AssemblyCache] Resolved 'Microsoft.AspNetCore.Http.Features' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Http.Features.dll
+2020-09-01T11:35:16.6463628-03:00:2020-09-01T11:35:16.6446174-03:00:Assembly resolving Microsoft.AspNetCore.Mvc.Abstractions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6475391-03:00:2020-09-01T11:35:16.6471026-03:00:Assembly resolving Microsoft.AspNetCore.Http.Abstractions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6495902-03:00:2020-09-01T11:35:16.6492246-03:00:Assembly resolving Microsoft.Extensions.DependencyInjection.Abstractions, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6500733-03:00:2020-09-01T11:35:16.6498164-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' from .deps.json file
+2020-09-01T11:35:16.6507444-03:00:2020-09-01T11:35:16.6504983-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\3.1.7\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll'
+2020-09-01T11:35:16.6521670-03:00:2020-09-01T11:35:16.6518448-03:00:Assembly resolving Microsoft.EntityFrameworkCore.Abstractions, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6527426-03:00:2020-09-01T11:35:16.6524502-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Abstractions' from .deps.json file
+2020-09-01T11:35:16.6534073-03:00:2020-09-01T11:35:16.6531004-03:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore.Abstractions' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.entityframeworkcore.abstractions\3.1.7\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll'
+2020-09-01T11:35:16.6552194-03:00:2020-09-01T11:35:16.6548934-03:00:Assembly resolving Microsoft.Extensions.Logging.Abstractions, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6557857-03:00:2020-09-01T11:35:16.6554975-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' from .deps.json file
+2020-09-01T11:35:16.6565328-03:00:2020-09-01T11:35:16.6562178-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Logging.Abstractions' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.extensions.logging.abstractions\3.1.7\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll'
+2020-09-01T11:35:16.6694813-03:00:2020-09-01T11:35:16.6690641-03:00:Assembly resolving Microsoft.Extensions.Caching.Abstractions, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6700679-03:00:2020-09-01T11:35:16.6697993-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' from .deps.json file
+2020-09-01T11:35:16.6708201-03:00:2020-09-01T11:35:16.6705144-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Caching.Abstractions' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.extensions.caching.abstractions\3.1.7\lib\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll'
+2020-09-01T11:35:16.6851747-03:00:2020-09-01T11:35:16.6847957-03:00:Assembly resolving Microsoft.Extensions.DependencyInjection, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.6857867-03:00:2020-09-01T11:35:16.6854842-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection' from .deps.json file
+2020-09-01T11:35:16.6865210-03:00:2020-09-01T11:35:16.6862317-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyInjection' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.extensions.dependencyinjection\3.1.7\lib\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll'
+2020-09-01T11:35:16.7639286-03:00:2020-09-01T11:35:16.7633945-03:00:Assembly resolving Microsoft.Extensions.Logging, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.7645054-03:00:2020-09-01T11:35:16.7642262-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' from .deps.json file
+2020-09-01T11:35:16.7652122-03:00:2020-09-01T11:35:16.7649331-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Logging' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.extensions.logging\3.1.7\lib\netcoreapp3.1\Microsoft.Extensions.Logging.dll'
+2020-09-01T11:35:16.7667546-03:00:2020-09-01T11:35:16.7664460-03:00:Assembly resolving Microsoft.Extensions.Options, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.7673079-03:00:2020-09-01T11:35:16.7670230-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' from .deps.json file
+2020-09-01T11:35:16.7679700-03:00:2020-09-01T11:35:16.7676744-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Options' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.extensions.options\3.1.7\lib\netcoreapp3.1\Microsoft.Extensions.Options.dll'
+2020-09-01T11:35:16.7832880-03:00:2020-09-01T11:35:16.7828506-03:00:Assembly resolving Microsoft.EntityFrameworkCore, Culture=neutral, PublicKeyToken=null
+2020-09-01T11:35:16.7841618-03:00:2020-09-01T11:35:16.7838492-03:00:Assembly resolving Microsoft.EntityFrameworkCore.resources, Version=3.1.7.0, Culture=pt-BR, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.7847134-03:00:2020-09-01T11:35:16.7844637-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' from .deps.json file
+2020-09-01T11:35:16.7852449-03:00:2020-09-01T11:35:16.7849627-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' from .deps.json
+2020-09-01T11:35:16.7857335-03:00:2020-09-01T11:35:16.7854530-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.7863055-03:00:2020-09-01T11:35:16.7860059-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.resources.dll'
+2020-09-01T11:35:16.7868943-03:00:2020-09-01T11:35:16.7866094-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.resources.exe'
+2020-09-01T11:35:16.7874306-03:00:2020-09-01T11:35:16.7871499-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.7884832-03:00:2020-09-01T11:35:16.7882285-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:16.7889691-03:00:2020-09-01T11:35:16.7886853-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.EntityFrameworkCore.resources.dll'
+2020-09-01T11:35:16.7894820-03:00:2020-09-01T11:35:16.7892297-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.EntityFrameworkCore.resources.exe'
+2020-09-01T11:35:16.7900410-03:00:2020-09-01T11:35:16.7897600-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:16.7906865-03:00:2020-09-01T11:35:16.7904274-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:16.7911949-03:00:2020-09-01T11:35:16.7909090-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.EntityFrameworkCore.resources.dll'
+2020-09-01T11:35:16.7919379-03:00:2020-09-01T11:35:16.7915139-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.EntityFrameworkCore.resources.exe'
+2020-09-01T11:35:16.7929905-03:00:2020-09-01T11:35:16.7924706-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:16.7963807-03:00:2020-09-01T11:35:16.7941717-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:16.7973081-03:00:2020-09-01T11:35:16.7968307-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.EntityFrameworkCore.resources.dll'
+2020-09-01T11:35:16.7984776-03:00:2020-09-01T11:35:16.7978008-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.EntityFrameworkCore.resources.exe'
+2020-09-01T11:35:16.7992840-03:00:2020-09-01T11:35:16.7989607-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:16.8010662-03:00:2020-09-01T11:35:16.8007993-03:00:Assembly resolving Microsoft.EntityFrameworkCore, Culture=neutral, PublicKeyToken=null
+2020-09-01T11:35:16.8016682-03:00:2020-09-01T11:35:16.8013984-03:00:Assembly resolving Microsoft.EntityFrameworkCore.resources, Version=3.1.7.0, Culture=pt, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.8150724-03:00:2020-09-01T11:35:16.8146432-03:00:Assembly resolving Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-01T11:35:16.8156672-03:00:2020-09-01T11:35:16.8153691-03:00:[AssemblyCache] Trying to resolve 'Data' from .deps.json file
+2020-09-01T11:35:16.8162876-03:00:2020-09-01T11:35:16.8159950-03:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'Data', found in dependency map, but unable to resolve a path in ['Data.dll']
+2020-09-01T11:35:16.8167542-03:00:2020-09-01T11:35:16.8165043-03:00:[AssemblyCache] Could not resolve 'Data' from .deps.json
+2020-09-01T11:35:16.8172088-03:00:2020-09-01T11:35:16.8169831-03:00:[AssemblyCache] Trying to resolve 'Data' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.8176535-03:00:2020-09-01T11:35:16.8174202-03:00:[AssemblyCache] Trying to resolve 'Data' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Data.dll'
+2020-09-01T11:35:16.8181190-03:00:2020-09-01T11:35:16.8179030-03:00:[AssemblyCache] Found file 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Data.dll' for assembly 'Data'
+2020-09-01T11:35:16.8189340-03:00:2020-09-01T11:35:16.8186585-03:00:[AssemblyCache] Resolved 'Data' to D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Data.dll
+2020-09-01T11:35:16.8291984-03:00:2020-09-01T11:35:16.8278740-03:00:Assembly resolving Microsoft.Extensions.Primitives, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.8298933-03:00:2020-09-01T11:35:16.8295426-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' from .deps.json file
+2020-09-01T11:35:16.8305795-03:00:2020-09-01T11:35:16.8303188-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Primitives' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.extensions.primitives\3.1.7\lib\netcoreapp3.1\Microsoft.Extensions.Primitives.dll'
+2020-09-01T11:35:16.8322746-03:00:2020-09-01T11:35:16.8318979-03:00:Assembly resolving System.IO.Pipelines, Version=4.0.2.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2020-09-01T11:35:16.8328137-03:00:2020-09-01T11:35:16.8325150-03:00:[AssemblyCache] Trying to resolve 'System.IO.Pipelines' from .deps.json file
+2020-09-01T11:35:16.8332668-03:00:2020-09-01T11:35:16.8330029-03:00:[AssemblyCache] Could not resolve 'System.IO.Pipelines' from .deps.json
+2020-09-01T11:35:16.8337328-03:00:2020-09-01T11:35:16.8334686-03:00:[AssemblyCache] Trying to resolve 'System.IO.Pipelines' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.8341039-03:00:2020-09-01T11:35:16.8338854-03:00:[AssemblyCache] Trying to resolve 'System.IO.Pipelines' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll'
+2020-09-01T11:35:16.8345424-03:00:2020-09-01T11:35:16.8343025-03:00:[AssemblyCache] Trying to resolve 'System.IO.Pipelines' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\System.IO.Pipelines.exe'
+2020-09-01T11:35:16.8349497-03:00:2020-09-01T11:35:16.8347314-03:00:[AssemblyCache] Could not resolve 'System.IO.Pipelines' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:16.8359400-03:00:2020-09-01T11:35:16.8357113-03:00:[AssemblyCache] Trying to resolve 'System.IO.Pipelines' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:16.8363447-03:00:2020-09-01T11:35:16.8361201-03:00:[AssemblyCache] Trying to resolve 'System.IO.Pipelines' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\System.IO.Pipelines.dll'
+2020-09-01T11:35:16.8368552-03:00:2020-09-01T11:35:16.8366106-03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\System.IO.Pipelines.dll' for assembly 'System.IO.Pipelines'
+2020-09-01T11:35:16.8377635-03:00:2020-09-01T11:35:16.8375528-03:00:[AssemblyCache] Resolved 'System.IO.Pipelines' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\System.IO.Pipelines.dll
+2020-09-01T11:35:16.8471342-03:00:Thread#0: Test #4/0 is started on thread #0
+2020-09-01T11:35:16.8775815-03:00:2020-09-01T11:35:16.8758496-03:00:Thread#0:B:Dados os usuários cadastrados
+2020-09-01T11:35:16.8791834-03:00:2020-09-01T11:35:16.8788073-03:00:Thread#0:B:  --- table step argument ---
+2020-09-01T11:35:16.8797253-03:00:2020-09-01T11:35:16.8794674-03:00:Thread#0:B:  | Id | Username | PasswordHash                                                                         | Enable |
+2020-09-01T11:35:16.8803277-03:00:2020-09-01T11:35:16.8800421-03:00:Thread#0:B:  | 1  | user1    | AQAAAAEAACcQAAAAEMqqnv/afSfAaJoHXNQiMdk0zA+d6995ncs7senVarj6XLVu+eq2WYZaEde9En0PCQ== | true   |
+2020-09-01T11:35:16.8808198-03:00:2020-09-01T11:35:16.8805425-03:00:Thread#0:B:  | 2  | user2    | AQAAAAEAACcQAAAAEHqSx238YMvWchQW7sKCc9xjUf/TU9H92idDwrdiQ69SmlLxfJXzuK8NQnWRC1+4AA== | false  |
+2020-09-01T11:35:16.8906460-03:00:2020-09-01T11:35:16.8902457-03:00:Assembly resolving Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-01T11:35:16.9023062-03:00:2020-09-01T11:35:16.9019059-03:00:Assembly resolving Microsoft.Extensions.Caching.Memory, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:16.9029006-03:00:2020-09-01T11:35:16.9026149-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' from .deps.json file
+2020-09-01T11:35:16.9036540-03:00:2020-09-01T11:35:16.9033406-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Caching.Memory' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.extensions.caching.memory\3.1.7\lib\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll'
+2020-09-01T11:35:16.9595646-03:00:2020-09-01T11:35:16.9591401-03:00:Assembly resolving Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2020-09-01T11:35:16.9601122-03:00:2020-09-01T11:35:16.9598490-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Bcl.HashCode' from .deps.json file
+2020-09-01T11:35:16.9626395-03:00:2020-09-01T11:35:16.9606643-03:00:[AssemblyCache] Resolved 'Microsoft.Bcl.HashCode' to 'C:\Users\euclides.okamoto\.nuget\packages\microsoft.bcl.hashcode\1.1.0\lib\netcoreapp2.1\Microsoft.Bcl.HashCode.dll'
+2020-09-01T11:35:17.4397464-03:00:2020-09-01T11:35:17.4389452-03:00:Assembly resolving Microsoft.EntityFrameworkCore.InMemory, Culture=neutral, PublicKeyToken=null
+2020-09-01T11:35:17.4405490-03:00:2020-09-01T11:35:17.4402401-03:00:Assembly resolving Microsoft.EntityFrameworkCore.InMemory.resources, Version=3.1.7.0, Culture=pt-BR, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:17.4410675-03:00:2020-09-01T11:35:17.4407533-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' from .deps.json file
+2020-09-01T11:35:17.4414450-03:00:2020-09-01T11:35:17.4412156-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' from .deps.json
+2020-09-01T11:35:17.4419870-03:00:2020-09-01T11:35:17.4416911-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.4424431-03:00:2020-09-01T11:35:17.4421790-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.resources.dll'
+2020-09-01T11:35:17.4493780-03:00:2020-09-01T11:35:17.4427935-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.resources.exe'
+2020-09-01T11:35:17.4501274-03:00:2020-09-01T11:35:17.4497939-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.4511918-03:00:2020-09-01T11:35:17.4509005-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:17.4515523-03:00:2020-09-01T11:35:17.4513335-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.EntityFrameworkCore.InMemory.resources.dll'
+2020-09-01T11:35:17.4521205-03:00:2020-09-01T11:35:17.4518720-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.EntityFrameworkCore.InMemory.resources.exe'
+2020-09-01T11:35:17.4526741-03:00:2020-09-01T11:35:17.4524011-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:17.4533444-03:00:2020-09-01T11:35:17.4530999-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:17.4537373-03:00:2020-09-01T11:35:17.4535278-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.EntityFrameworkCore.InMemory.resources.dll'
+2020-09-01T11:35:17.4542454-03:00:2020-09-01T11:35:17.4540126-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\Microsoft.EntityFrameworkCore.InMemory.resources.exe'
+2020-09-01T11:35:17.4546977-03:00:2020-09-01T11:35:17.4544898-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:17.4552708-03:00:2020-09-01T11:35:17.4550557-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:17.4556460-03:00:2020-09-01T11:35:17.4554219-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.EntityFrameworkCore.InMemory.resources.dll'
+2020-09-01T11:35:17.4560337-03:00:2020-09-01T11:35:17.4558568-03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\Microsoft.EntityFrameworkCore.InMemory.resources.exe'
+2020-09-01T11:35:17.4563447-03:00:2020-09-01T11:35:17.4561994-03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.InMemory.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:17.4570831-03:00:2020-09-01T11:35:17.4569428-03:00:Assembly resolving Microsoft.EntityFrameworkCore.InMemory, Culture=neutral, PublicKeyToken=null
+2020-09-01T11:35:17.4574394-03:00:2020-09-01T11:35:17.4573026-03:00:Assembly resolving Microsoft.EntityFrameworkCore.InMemory.resources, Version=3.1.7.0, Culture=pt, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:17.4706989-03:00:2020-09-01T11:35:17.4703292-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoOsUsuariosCadastrados(<table>) (0,6s)
+2020-09-01T11:35:17.4722371-03:00:2020-09-01T11:35:17.4718272-03:00:Thread#0:B:E que o usuário é "user1"
+2020-09-01T11:35:17.4738774-03:00:2020-09-01T11:35:17.4735935-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueOUsuarioE("user1") (0,0s)
+2020-09-01T11:35:17.4744489-03:00:2020-09-01T11:35:17.4741585-03:00:Thread#0:B:E que a senha é "user1@123"
+2020-09-01T11:35:17.4755454-03:00:2020-09-01T11:35:17.4752382-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueASenhaE("user1@123") (0,0s)
+2020-09-01T11:35:17.4794856-03:00:2020-09-01T11:35:17.4760016-03:00:Thread#0:B:Quando é solicitada a autenticação
+2020-09-01T11:35:17.4859336-03:00:2020-09-01T11:35:17.4855285-03:00:Assembly resolving Microsoft.Extensions.Identity.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:17.4864419-03:00:2020-09-01T11:35:17.4861960-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Identity.Core' from .deps.json file
+2020-09-01T11:35:17.4868093-03:00:2020-09-01T11:35:17.4865862-03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Identity.Core' from .deps.json
+2020-09-01T11:35:17.4873837-03:00:2020-09-01T11:35:17.4870939-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Identity.Core' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.4879349-03:00:2020-09-01T11:35:17.4876486-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Identity.Core' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll'
+2020-09-01T11:35:17.4884405-03:00:2020-09-01T11:35:17.4882031-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Identity.Core' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.exe'
+2020-09-01T11:35:17.4889145-03:00:2020-09-01T11:35:17.4886565-03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Identity.Core' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.4899789-03:00:2020-09-01T11:35:17.4897253-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Identity.Core' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:17.4904677-03:00:2020-09-01T11:35:17.4902248-03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Identity.Core' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.Extensions.Identity.Core.dll'
+2020-09-01T11:35:17.4910503-03:00:2020-09-01T11:35:17.4907854-03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.Extensions.Identity.Core.dll' for assembly 'Microsoft.Extensions.Identity.Core'
+2020-09-01T11:35:17.4920993-03:00:2020-09-01T11:35:17.4918161-03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Identity.Core' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.Extensions.Identity.Core.dll
+2020-09-01T11:35:17.4928550-03:00:2020-09-01T11:35:17.4926002-03:00:Assembly resolving WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-01T11:35:17.4932807-03:00:2020-09-01T11:35:17.4930692-03:00:[AssemblyCache] Trying to resolve 'WebSite' from .deps.json file
+2020-09-01T11:35:17.4941137-03:00:2020-09-01T11:35:17.4935164-03:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'WebSite', found in dependency map, but unable to resolve a path in ['WebSite.dll']
+2020-09-01T11:35:17.4961421-03:00:2020-09-01T11:35:17.4956928-03:00:[AssemblyCache] Could not resolve 'WebSite' from .deps.json
+2020-09-01T11:35:17.4968771-03:00:2020-09-01T11:35:17.4965604-03:00:[AssemblyCache] Trying to resolve 'WebSite' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.4974645-03:00:2020-09-01T11:35:17.4971479-03:00:[AssemblyCache] Trying to resolve 'WebSite' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\WebSite.dll'
+2020-09-01T11:35:17.4982167-03:00:2020-09-01T11:35:17.4977987-03:00:[AssemblyCache] Found file 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\WebSite.dll' for assembly 'WebSite'
+2020-09-01T11:35:17.4990401-03:00:2020-09-01T11:35:17.4987865-03:00:[AssemblyCache] Resolved 'WebSite' to D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\WebSite.dll
+2020-09-01T11:35:17.4996389-03:00:2020-09-01T11:35:17.4994187-03:00:Assembly resolving Microsoft.Extensions.Options, Version=3.1.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:17.5415792-03:00:2020-09-01T11:35:17.5412070-03:00:Assembly resolving Microsoft.AspNetCore.Cryptography.KeyDerivation, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:17.5421109-03:00:2020-09-01T11:35:17.5418175-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.KeyDerivation' from .deps.json file
+2020-09-01T11:35:17.5426791-03:00:2020-09-01T11:35:17.5423531-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Cryptography.KeyDerivation' from .deps.json
+2020-09-01T11:35:17.5431785-03:00:2020-09-01T11:35:17.5428839-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.KeyDerivation' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.5440705-03:00:2020-09-01T11:35:17.5434691-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.KeyDerivation' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll'
+2020-09-01T11:35:17.5467559-03:00:2020-09-01T11:35:17.5461253-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.KeyDerivation' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.exe'
+2020-09-01T11:35:17.5473961-03:00:2020-09-01T11:35:17.5470985-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Cryptography.KeyDerivation' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.5487479-03:00:2020-09-01T11:35:17.5483972-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.KeyDerivation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:17.5492780-03:00:2020-09-01T11:35:17.5489963-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.KeyDerivation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll'
+2020-09-01T11:35:17.5499034-03:00:2020-09-01T11:35:17.5496099-03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll' for assembly 'Microsoft.AspNetCore.Cryptography.KeyDerivation'
+2020-09-01T11:35:17.5514159-03:00:2020-09-01T11:35:17.5511020-03:00:[AssemblyCache] Resolved 'Microsoft.AspNetCore.Cryptography.KeyDerivation' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+2020-09-01T11:35:17.5522998-03:00:2020-09-01T11:35:17.5520152-03:00:Assembly resolving Microsoft.AspNetCore.Cryptography.Internal, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-01T11:35:17.5528095-03:00:2020-09-01T11:35:17.5525532-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.Internal' from .deps.json file
+2020-09-01T11:35:17.5533212-03:00:2020-09-01T11:35:17.5530425-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Cryptography.Internal' from .deps.json
+2020-09-01T11:35:17.5538095-03:00:2020-09-01T11:35:17.5535497-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.Internal' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.5543019-03:00:2020-09-01T11:35:17.5540318-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.Internal' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll'
+2020-09-01T11:35:17.5547638-03:00:2020-09-01T11:35:17.5544875-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.Internal' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.exe'
+2020-09-01T11:35:17.5552655-03:00:2020-09-01T11:35:17.5550409-03:00:[AssemblyCache] Could not resolve 'Microsoft.AspNetCore.Cryptography.Internal' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.5562895-03:00:2020-09-01T11:35:17.5560366-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.Internal' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:17.5566913-03:00:2020-09-01T11:35:17.5564560-03:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Cryptography.Internal' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Cryptography.Internal.dll'
+2020-09-01T11:35:17.5571925-03:00:2020-09-01T11:35:17.5569661-03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Cryptography.Internal.dll' for assembly 'Microsoft.AspNetCore.Cryptography.Internal'
+2020-09-01T11:35:17.5584255-03:00:2020-09-01T11:35:17.5581731-03:00:[AssemblyCache] Resolved 'Microsoft.AspNetCore.Cryptography.Internal' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\Microsoft.AspNetCore.Cryptography.Internal.dll
+2020-09-01T11:35:17.5877618-03:00:2020-09-01T11:35:17.5873341-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.QuandoESolicitadaAAutenticacao() (0,1s)
+2020-09-01T11:35:17.5885412-03:00:2020-09-01T11:35:17.5882808-03:00:Thread#0:B:Entao retorna o token com as informações do usuário
+2020-09-01T11:35:17.5896851-03:00:2020-09-01T11:35:17.5893686-03:00:Assembly resolving nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb
+2020-09-01T11:35:17.5902296-03:00:2020-09-01T11:35:17.5899447-03:00:[AssemblyCache] Trying to resolve 'nunit.framework' from .deps.json file
+2020-09-01T11:35:17.5908620-03:00:2020-09-01T11:35:17.5906732-03:00:[AssemblyCache] Resolved 'nunit.framework' to 'C:\Users\euclides.okamoto\.nuget\packages\nunit\3.12.0\lib\netstandard2.0\nunit.framework.dll'
+2020-09-01T11:35:17.6146305-03:00:2020-09-01T11:35:17.6140875-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.EntaoRetornaOTokenComAsInformacoesDoUsuario() (0,0s)
+2020-09-01T11:35:17.6257647-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T11:35:17.6258350-03:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2020-09-01T11:35:17.6258417-03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-09-01T11:35:17.6259709-03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T11:35:17.6259851-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-09-01T11:35:17.6259885-03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-09-01T11:35:17.6259915-03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-09-01T11:35:17.6260383-03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-09-01T11:35:17.6261001-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-09-01T11:35:17.6784544-03:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0,8295895 seconds
+2020-09-01T11:35:17.6827718-03:00:Thread#0: Test #5/0 is started on thread #0
+2020-09-01T11:35:17.6843672-03:00:2020-09-01T11:35:17.6840451-03:00:Thread#0:B:Dados os usuários cadastrados
+2020-09-01T11:35:17.6849303-03:00:2020-09-01T11:35:17.6846471-03:00:Thread#0:B:  --- table step argument ---
+2020-09-01T11:35:17.6854347-03:00:2020-09-01T11:35:17.6851663-03:00:Thread#0:B:  | Id | Username | PasswordHash                                                                         | Enable |
+2020-09-01T11:35:17.6859059-03:00:2020-09-01T11:35:17.6856393-03:00:Thread#0:B:  | 1  | user1    | AQAAAAEAACcQAAAAEMqqnv/afSfAaJoHXNQiMdk0zA+d6995ncs7senVarj6XLVu+eq2WYZaEde9En0PCQ== | true   |
+2020-09-01T11:35:17.6863819-03:00:2020-09-01T11:35:17.6861344-03:00:Thread#0:B:  | 2  | user2    | AQAAAAEAACcQAAAAEHqSx238YMvWchQW7sKCc9xjUf/TU9H92idDwrdiQ69SmlLxfJXzuK8NQnWRC1+4AA== | false  |
+2020-09-01T11:35:17.6887845-03:00:2020-09-01T11:35:17.6884912-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoOsUsuariosCadastrados(<table>) (0,0s)
+2020-09-01T11:35:17.6892925-03:00:2020-09-01T11:35:17.6890533-03:00:Thread#0:B:E que o usuário é "user1"
+2020-09-01T11:35:17.6898733-03:00:2020-09-01T11:35:17.6895997-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueOUsuarioE("user1") (0,0s)
+2020-09-01T11:35:17.6903713-03:00:2020-09-01T11:35:17.6901124-03:00:Thread#0:B:E que a senha é "user1@124"
+2020-09-01T11:35:17.6909742-03:00:2020-09-01T11:35:17.6907190-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueASenhaE("user1@124") (0,0s)
+2020-09-01T11:35:17.6915823-03:00:2020-09-01T11:35:17.6913474-03:00:Thread#0:B:Quando é solicitada a autenticação
+2020-09-01T11:35:17.7016343-03:00:2020-09-01T11:35:17.7012220-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.QuandoESolicitadaAAutenticacao() (0,0s)
+2020-09-01T11:35:17.7021998-03:00:2020-09-01T11:35:17.7019332-03:00:Thread#0:B:Entao retorna mensagem de erro "Senha incorreta"
+2020-09-01T11:35:17.7035191-03:00:2020-09-01T11:35:17.7032411-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.EntaoRetornaMensagemDeErro("Senha incorreta") (0,0s)
+2020-09-01T11:35:17.7048486-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T11:35:17.7048692-03:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2020-09-01T11:35:17.7048716-03:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2020-09-01T11:35:17.7048980-03:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T11:35:17.7049004-03:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2020-09-01T11:35:17.7049018-03:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2020-09-01T11:35:17.7049033-03:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2020-09-01T11:35:17.7049117-03:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2020-09-01T11:35:17.7049173-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-09-01T11:35:17.7065062-03:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0,0236842 seconds
+2020-09-01T11:35:17.7073064-03:00:Thread#0: Test #6/0 is started on thread #0
+2020-09-01T11:35:17.7087307-03:00:2020-09-01T11:35:17.7084035-03:00:Thread#0:B:Dados os usuários cadastrados
+2020-09-01T11:35:17.7092128-03:00:2020-09-01T11:35:17.7089723-03:00:Thread#0:B:  --- table step argument ---
+2020-09-01T11:35:17.7097303-03:00:2020-09-01T11:35:17.7094512-03:00:Thread#0:B:  | Id | Username | PasswordHash                                                                         | Enable |
+2020-09-01T11:35:17.7103198-03:00:2020-09-01T11:35:17.7099601-03:00:Thread#0:B:  | 1  | user1    | AQAAAAEAACcQAAAAEMqqnv/afSfAaJoHXNQiMdk0zA+d6995ncs7senVarj6XLVu+eq2WYZaEde9En0PCQ== | true   |
+2020-09-01T11:35:17.7114642-03:00:2020-09-01T11:35:17.7105768-03:00:Thread#0:B:  | 2  | user2    | AQAAAAEAACcQAAAAEHqSx238YMvWchQW7sKCc9xjUf/TU9H92idDwrdiQ69SmlLxfJXzuK8NQnWRC1+4AA== | false  |
+2020-09-01T11:35:17.7154758-03:00:2020-09-01T11:35:17.7151025-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoOsUsuariosCadastrados(<table>) (0,0s)
+2020-09-01T11:35:17.7160729-03:00:2020-09-01T11:35:17.7157787-03:00:Thread#0:B:E que o usuário é "user3"
+2020-09-01T11:35:17.7167417-03:00:2020-09-01T11:35:17.7164455-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueOUsuarioE("user3") (0,0s)
+2020-09-01T11:35:17.7173109-03:00:2020-09-01T11:35:17.7170247-03:00:Thread#0:B:E que a senha é "user1@123"
+2020-09-01T11:35:17.7178642-03:00:2020-09-01T11:35:17.7176130-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueASenhaE("user1@123") (0,0s)
+2020-09-01T11:35:17.7183948-03:00:2020-09-01T11:35:17.7181570-03:00:Thread#0:B:Quando é solicitada a autenticação
+2020-09-01T11:35:17.7194968-03:00:2020-09-01T11:35:17.7192639-03:00:Assembly resolving System.Linq.resources, Version=4.2.2.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T11:35:17.7199494-03:00:2020-09-01T11:35:17.7196961-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' from .deps.json file
+2020-09-01T11:35:17.7203781-03:00:2020-09-01T11:35:17.7201557-03:00:[AssemblyCache] Could not resolve 'System.Linq.resources' from .deps.json
+2020-09-01T11:35:17.7207665-03:00:2020-09-01T11:35:17.7205600-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.7211915-03:00:2020-09-01T11:35:17.7209642-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\System.Linq.resources.dll'
+2020-09-01T11:35:17.7216422-03:00:2020-09-01T11:35:17.7214158-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\System.Linq.resources.exe'
+2020-09-01T11:35:17.7220050-03:00:2020-09-01T11:35:17.7217920-03:00:[AssemblyCache] Could not resolve 'System.Linq.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.7230048-03:00:2020-09-01T11:35:17.7227539-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:17.7233435-03:00:2020-09-01T11:35:17.7231650-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\System.Linq.resources.dll'
+2020-09-01T11:35:17.7237509-03:00:2020-09-01T11:35:17.7235623-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\System.Linq.resources.exe'
+2020-09-01T11:35:17.7241684-03:00:2020-09-01T11:35:17.7239836-03:00:[AssemblyCache] Could not resolve 'System.Linq.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:17.7247043-03:00:2020-09-01T11:35:17.7245271-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:17.7250671-03:00:2020-09-01T11:35:17.7248917-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\System.Linq.resources.dll'
+2020-09-01T11:35:17.7254557-03:00:2020-09-01T11:35:17.7252845-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\System.Linq.resources.exe'
+2020-09-01T11:35:17.7258707-03:00:2020-09-01T11:35:17.7256483-03:00:[AssemblyCache] Could not resolve 'System.Linq.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:17.7283631-03:00:2020-09-01T11:35:17.7264193-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:17.7292765-03:00:2020-09-01T11:35:17.7288726-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\System.Linq.resources.dll'
+2020-09-01T11:35:17.7300292-03:00:2020-09-01T11:35:17.7296864-03:00:[AssemblyCache] Trying to resolve 'System.Linq.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\System.Linq.resources.exe'
+2020-09-01T11:35:17.7306959-03:00:2020-09-01T11:35:17.7304037-03:00:[AssemblyCache] Could not resolve 'System.Linq.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:17.7315862-03:00:2020-09-01T11:35:17.7312946-03:00:Assembly resolving System.Linq.resources, Version=4.2.2.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T11:35:17.7334860-03:00:2020-09-01T11:35:17.7332081-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.QuandoESolicitadaAAutenticacao() (0,0s)
+2020-09-01T11:35:17.7340815-03:00:2020-09-01T11:35:17.7337832-03:00:Thread#0:B:Entao retorna mensagem de erro "Usuário não cadastrado"
+2020-09-01T11:35:17.8044317-03:00:2020-09-01T11:35:17.8040168-03:00:Thread#0:T:error:   Expected: 401
+2020-09-01T11:35:17.8049865-03:00:2020-09-01T11:35:17.8047295-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8072129-03:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2020-09-01T11:35:17.8079152-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T11:35:17.8079441-03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2020-09-01T11:35:17.8079468-03:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2020-09-01T11:35:17.8079642-03:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T11:35:17.8079667-03:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2020-09-01T11:35:17.8079679-03:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2020-09-01T11:35:17.8079695-03:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2020-09-01T11:35:17.8079786-03:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2020-09-01T11:35:17.8079841-03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-09-01T11:35:17.8096000-03:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 0,102273 seconds
+2020-09-01T11:35:17.8103731-03:00:Thread#0: Test #6/1 is started on thread #0
+2020-09-01T11:35:17.8133108-03:00:2020-09-01T11:35:17.8126189-03:00:Thread#0:B:Dados os usuários cadastrados
+2020-09-01T11:35:17.8138895-03:00:2020-09-01T11:35:17.8136339-03:00:Thread#0:B:  --- table step argument ---
+2020-09-01T11:35:17.8143473-03:00:2020-09-01T11:35:17.8141297-03:00:Thread#0:B:  | Id | Username | PasswordHash                                                                         | Enable |
+2020-09-01T11:35:17.8149155-03:00:2020-09-01T11:35:17.8146138-03:00:Thread#0:B:  | 1  | user1    | AQAAAAEAACcQAAAAEMqqnv/afSfAaJoHXNQiMdk0zA+d6995ncs7senVarj6XLVu+eq2WYZaEde9En0PCQ== | true   |
+2020-09-01T11:35:17.8153799-03:00:2020-09-01T11:35:17.8151239-03:00:Thread#0:B:  | 2  | user2    | AQAAAAEAACcQAAAAEHqSx238YMvWchQW7sKCc9xjUf/TU9H92idDwrdiQ69SmlLxfJXzuK8NQnWRC1+4AA== | false  |
+2020-09-01T11:35:17.8177115-03:00:2020-09-01T11:35:17.8174067-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoOsUsuariosCadastrados(<table>) (0,0s)
+2020-09-01T11:35:17.8182663-03:00:2020-09-01T11:35:17.8179614-03:00:Thread#0:B:E que o usuário é "user3"
+2020-09-01T11:35:17.8188665-03:00:2020-09-01T11:35:17.8185869-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueOUsuarioE("user3") (0,0s)
+2020-09-01T11:35:17.8194075-03:00:2020-09-01T11:35:17.8191410-03:00:Thread#0:B:E que a senha é "user1@123"
+2020-09-01T11:35:17.8200321-03:00:2020-09-01T11:35:17.8197558-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueASenhaE("user1@123") (0,0s)
+2020-09-01T11:35:17.8205428-03:00:2020-09-01T11:35:17.8202792-03:00:Thread#0:B:Quando é solicitada a autenticação
+2020-09-01T11:35:17.8214433-03:00:2020-09-01T11:35:17.8212010-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.QuandoESolicitadaAAutenticacao() (0,0s)
+2020-09-01T11:35:17.8219758-03:00:2020-09-01T11:35:17.8217064-03:00:Thread#0:B:Entao retorna mensagem de erro "Usuário não cadastrado"
+2020-09-01T11:35:17.8250689-03:00:2020-09-01T11:35:17.8247454-03:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-09-01T11:35:17.8255997-03:00:2020-09-01T11:35:17.8253209-03:00:Thread#0:T:  1)   Expected: 401
+2020-09-01T11:35:17.8260486-03:00:2020-09-01T11:35:17.8257750-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8265568-03:00:2020-09-01T11:35:17.8262702-03:00:Thread#0:T:  2)   Expected: 401
+2020-09-01T11:35:17.8287097-03:00:2020-09-01T11:35:17.8272362-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8312064-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T11:35:17.8312214-03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2020-09-01T11:35:17.8312234-03:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2020-09-01T11:35:17.8312397-03:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T11:35:17.8312419-03:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2020-09-01T11:35:17.8312440-03:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2020-09-01T11:35:17.8312455-03:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2020-09-01T11:35:17.8312546-03:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2020-09-01T11:35:17.8312597-03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-09-01T11:35:17.8328501-03:00:Thread#0: Test #6/1 is finished on thread #0 as Failed within 0,0224457 seconds
+2020-09-01T11:35:17.8334701-03:00:Thread#0: Test #6/2 is started on thread #0
+2020-09-01T11:35:17.8341860-03:00:2020-09-01T11:35:17.8339095-03:00:Thread#0:B:Dados os usuários cadastrados
+2020-09-01T11:35:17.8346436-03:00:2020-09-01T11:35:17.8343811-03:00:Thread#0:B:  --- table step argument ---
+2020-09-01T11:35:17.8350916-03:00:2020-09-01T11:35:17.8348275-03:00:Thread#0:B:  | Id | Username | PasswordHash                                                                         | Enable |
+2020-09-01T11:35:17.8356047-03:00:2020-09-01T11:35:17.8353312-03:00:Thread#0:B:  | 1  | user1    | AQAAAAEAACcQAAAAEMqqnv/afSfAaJoHXNQiMdk0zA+d6995ncs7senVarj6XLVu+eq2WYZaEde9En0PCQ== | true   |
+2020-09-01T11:35:17.8360804-03:00:2020-09-01T11:35:17.8358402-03:00:Thread#0:B:  | 2  | user2    | AQAAAAEAACcQAAAAEHqSx238YMvWchQW7sKCc9xjUf/TU9H92idDwrdiQ69SmlLxfJXzuK8NQnWRC1+4AA== | false  |
+2020-09-01T11:35:17.8383455-03:00:2020-09-01T11:35:17.8380638-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoOsUsuariosCadastrados(<table>) (0,0s)
+2020-09-01T11:35:17.8388571-03:00:2020-09-01T11:35:17.8386128-03:00:Thread#0:B:E que o usuário é "user3"
+2020-09-01T11:35:17.8394384-03:00:2020-09-01T11:35:17.8391859-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueOUsuarioE("user3") (0,0s)
+2020-09-01T11:35:17.8399454-03:00:2020-09-01T11:35:17.8397047-03:00:Thread#0:B:E que a senha é "user1@123"
+2020-09-01T11:35:17.8405099-03:00:2020-09-01T11:35:17.8402700-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueASenhaE("user1@123") (0,0s)
+2020-09-01T11:35:17.8409665-03:00:2020-09-01T11:35:17.8407517-03:00:Thread#0:B:Quando é solicitada a autenticação
+2020-09-01T11:35:17.8418483-03:00:2020-09-01T11:35:17.8416000-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.QuandoESolicitadaAAutenticacao() (0,0s)
+2020-09-01T11:35:17.8423220-03:00:2020-09-01T11:35:17.8420775-03:00:Thread#0:B:Entao retorna mensagem de erro "Usuário não cadastrado"
+2020-09-01T11:35:17.8501896-03:00:2020-09-01T11:35:17.8498062-03:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-09-01T11:35:17.8507522-03:00:2020-09-01T11:35:17.8504731-03:00:Thread#0:T:  1)   Expected: 401
+2020-09-01T11:35:17.8512357-03:00:2020-09-01T11:35:17.8509696-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8517204-03:00:2020-09-01T11:35:17.8514692-03:00:Thread#0:T:  2)   Expected: 401
+2020-09-01T11:35:17.8521955-03:00:2020-09-01T11:35:17.8519268-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8526507-03:00:2020-09-01T11:35:17.8524272-03:00:Thread#0:T:  3)   Expected: 401
+2020-09-01T11:35:17.8530544-03:00:2020-09-01T11:35:17.8528480-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8544784-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T11:35:17.8544901-03:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2020-09-01T11:35:17.8544921-03:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2020-09-01T11:35:17.8545071-03:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T11:35:17.8545094-03:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2020-09-01T11:35:17.8545117-03:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2020-09-01T11:35:17.8545133-03:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2020-09-01T11:35:17.8545215-03:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2020-09-01T11:35:17.8545324-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-09-01T11:35:17.8559490-03:00:Thread#0: Test #6/2 is finished on thread #0 as Failed within 0,0224556 seconds
+2020-09-01T11:35:17.8565924-03:00:Thread#0: Test #7/0 is started on thread #0
+2020-09-01T11:35:17.8579557-03:00:2020-09-01T11:35:17.8576817-03:00:Thread#0:B:Dados os usuários cadastrados
+2020-09-01T11:35:17.8584409-03:00:2020-09-01T11:35:17.8582011-03:00:Thread#0:B:  --- table step argument ---
+2020-09-01T11:35:17.8588223-03:00:2020-09-01T11:35:17.8586065-03:00:Thread#0:B:  | Id | Username | PasswordHash                                                                         | Enable |
+2020-09-01T11:35:17.8592447-03:00:2020-09-01T11:35:17.8590108-03:00:Thread#0:B:  | 1  | user1    | AQAAAAEAACcQAAAAEMqqnv/afSfAaJoHXNQiMdk0zA+d6995ncs7senVarj6XLVu+eq2WYZaEde9En0PCQ== | true   |
+2020-09-01T11:35:17.8596505-03:00:2020-09-01T11:35:17.8594286-03:00:Thread#0:B:  | 2  | user2    | AQAAAAEAACcQAAAAEHqSx238YMvWchQW7sKCc9xjUf/TU9H92idDwrdiQ69SmlLxfJXzuK8NQnWRC1+4AA== | false  |
+2020-09-01T11:35:17.8641426-03:00:2020-09-01T11:35:17.8636954-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoOsUsuariosCadastrados(<table>) (0,0s)
+2020-09-01T11:35:17.8646621-03:00:2020-09-01T11:35:17.8644375-03:00:Thread#0:B:E que o usuário é "user3"
+2020-09-01T11:35:17.8652754-03:00:2020-09-01T11:35:17.8650136-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueOUsuarioE("user3") (0,0s)
+2020-09-01T11:35:17.8657877-03:00:2020-09-01T11:35:17.8655411-03:00:Thread#0:B:E que a senha é "user1@124"
+2020-09-01T11:35:17.8663248-03:00:2020-09-01T11:35:17.8660694-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueASenhaE("user1@124") (0,0s)
+2020-09-01T11:35:17.8668310-03:00:2020-09-01T11:35:17.8665863-03:00:Thread#0:B:Quando é solicitada a autenticação
+2020-09-01T11:35:17.8677361-03:00:2020-09-01T11:35:17.8674906-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.QuandoESolicitadaAAutenticacao() (0,0s)
+2020-09-01T11:35:17.8681863-03:00:2020-09-01T11:35:17.8679490-03:00:Thread#0:B:Entao retorna mensagem de erro "Usuário não cadastrado"
+2020-09-01T11:35:17.8699189-03:00:2020-09-01T11:35:17.8696619-03:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-09-01T11:35:17.8703875-03:00:2020-09-01T11:35:17.8701391-03:00:Thread#0:T:  1)   Expected: 401
+2020-09-01T11:35:17.8708120-03:00:2020-09-01T11:35:17.8705885-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8711486-03:00:2020-09-01T11:35:17.8709527-03:00:Thread#0:T:  2)   Expected: 401
+2020-09-01T11:35:17.8715686-03:00:2020-09-01T11:35:17.8713256-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8718794-03:00:2020-09-01T11:35:17.8716982-03:00:Thread#0:T:  3)   Expected: 401
+2020-09-01T11:35:17.8721700-03:00:2020-09-01T11:35:17.8719981-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8725113-03:00:2020-09-01T11:35:17.8723361-03:00:Thread#0:T:  4)   Expected: 401
+2020-09-01T11:35:17.8728089-03:00:2020-09-01T11:35:17.8726692-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8735223-03:00:Thread#0:TestItem#7:Scheduler: reschedule tests for testitem #7
+2020-09-01T11:35:17.8737858-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T11:35:17.8737962-03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+2020-09-01T11:35:17.8737990-03:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2020-09-01T11:35:17.8738142-03:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T11:35:17.8738172-03:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2020-09-01T11:35:17.8738185-03:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2020-09-01T11:35:17.8738201-03:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2020-09-01T11:35:17.8738285-03:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2020-09-01T11:35:17.8738338-03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-09-01T11:35:17.8751698-03:00:Thread#0: Test #7/0 is finished on thread #0 as Failed within 0,0185543 seconds
+2020-09-01T11:35:17.8755872-03:00:Thread#0: Test #7/1 is started on thread #0
+2020-09-01T11:35:17.8765188-03:00:2020-09-01T11:35:17.8761134-03:00:Thread#0:B:Dados os usuários cadastrados
+2020-09-01T11:35:17.8780613-03:00:2020-09-01T11:35:17.8767608-03:00:Thread#0:B:  --- table step argument ---
+2020-09-01T11:35:17.8796092-03:00:2020-09-01T11:35:17.8791609-03:00:Thread#0:B:  | Id | Username | PasswordHash                                                                         | Enable |
+2020-09-01T11:35:17.8803965-03:00:2020-09-01T11:35:17.8798865-03:00:Thread#0:B:  | 1  | user1    | AQAAAAEAACcQAAAAEMqqnv/afSfAaJoHXNQiMdk0zA+d6995ncs7senVarj6XLVu+eq2WYZaEde9En0PCQ== | true   |
+2020-09-01T11:35:17.8809343-03:00:2020-09-01T11:35:17.8806436-03:00:Thread#0:B:  | 2  | user2    | AQAAAAEAACcQAAAAEHqSx238YMvWchQW7sKCc9xjUf/TU9H92idDwrdiQ69SmlLxfJXzuK8NQnWRC1+4AA== | false  |
+2020-09-01T11:35:17.8835994-03:00:2020-09-01T11:35:17.8832254-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoOsUsuariosCadastrados(<table>) (0,0s)
+2020-09-01T11:35:17.8841240-03:00:2020-09-01T11:35:17.8838350-03:00:Thread#0:B:E que o usuário é "user3"
+2020-09-01T11:35:17.8847253-03:00:2020-09-01T11:35:17.8844412-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueOUsuarioE("user3") (0,0s)
+2020-09-01T11:35:17.8852449-03:00:2020-09-01T11:35:17.8850083-03:00:Thread#0:B:E que a senha é "user1@124"
+2020-09-01T11:35:17.8858338-03:00:2020-09-01T11:35:17.8855522-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueASenhaE("user1@124") (0,0s)
+2020-09-01T11:35:17.8863269-03:00:2020-09-01T11:35:17.8860700-03:00:Thread#0:B:Quando é solicitada a autenticação
+2020-09-01T11:35:17.8871893-03:00:2020-09-01T11:35:17.8869256-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.QuandoESolicitadaAAutenticacao() (0,0s)
+2020-09-01T11:35:17.8876648-03:00:2020-09-01T11:35:17.8874283-03:00:Thread#0:B:Entao retorna mensagem de erro "Usuário não cadastrado"
+2020-09-01T11:35:17.8892763-03:00:2020-09-01T11:35:17.8889878-03:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-09-01T11:35:17.8898090-03:00:2020-09-01T11:35:17.8895326-03:00:Thread#0:T:  1)   Expected: 401
+2020-09-01T11:35:17.8902394-03:00:2020-09-01T11:35:17.8900110-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8906955-03:00:2020-09-01T11:35:17.8904322-03:00:Thread#0:T:  2)   Expected: 401
+2020-09-01T11:35:17.8911455-03:00:2020-09-01T11:35:17.8908873-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8915996-03:00:2020-09-01T11:35:17.8913370-03:00:Thread#0:T:  3)   Expected: 401
+2020-09-01T11:35:17.8919751-03:00:2020-09-01T11:35:17.8917845-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8923322-03:00:2020-09-01T11:35:17.8921055-03:00:Thread#0:T:  4)   Expected: 401
+2020-09-01T11:35:17.8926596-03:00:2020-09-01T11:35:17.8924643-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8930540-03:00:2020-09-01T11:35:17.8928267-03:00:Thread#0:T:  5)   Expected: 401
+2020-09-01T11:35:17.8934505-03:00:2020-09-01T11:35:17.8932430-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.8981007-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T11:35:17.8981278-03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+2020-09-01T11:35:17.8981329-03:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2020-09-01T11:35:17.8981591-03:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-01T11:35:17.8981634-03:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2020-09-01T11:35:17.8981734-03:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2020-09-01T11:35:17.8981805-03:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2020-09-01T11:35:17.8981928-03:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2020-09-01T11:35:17.8981981-03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-09-01T11:35:17.8999275-03:00:Thread#0: Test #7/1 is finished on thread #0 as Failed within 0,024316 seconds
+2020-09-01T11:35:17.9005858-03:00:Thread#0: Test #7/2 is started on thread #0
+2020-09-01T11:35:17.9013149-03:00:2020-09-01T11:35:17.9009751-03:00:Thread#0:B:Dados os usuários cadastrados
+2020-09-01T11:35:17.9017332-03:00:2020-09-01T11:35:17.9014888-03:00:Thread#0:B:  --- table step argument ---
+2020-09-01T11:35:17.9022874-03:00:2020-09-01T11:35:17.9019990-03:00:Thread#0:B:  | Id | Username | PasswordHash                                                                         | Enable |
+2020-09-01T11:35:17.9028051-03:00:2020-09-01T11:35:17.9025028-03:00:Thread#0:B:  | 1  | user1    | AQAAAAEAACcQAAAAEMqqnv/afSfAaJoHXNQiMdk0zA+d6995ncs7senVarj6XLVu+eq2WYZaEde9En0PCQ== | true   |
+2020-09-01T11:35:17.9032603-03:00:2020-09-01T11:35:17.9030007-03:00:Thread#0:B:  | 2  | user2    | AQAAAAEAACcQAAAAEHqSx238YMvWchQW7sKCc9xjUf/TU9H92idDwrdiQ69SmlLxfJXzuK8NQnWRC1+4AA== | false  |
+2020-09-01T11:35:17.9055157-03:00:2020-09-01T11:35:17.9052449-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoOsUsuariosCadastrados(<table>) (0,0s)
+2020-09-01T11:35:17.9061107-03:00:2020-09-01T11:35:17.9058194-03:00:Thread#0:B:E que o usuário é "user3"
+2020-09-01T11:35:17.9067082-03:00:2020-09-01T11:35:17.9064532-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueOUsuarioE("user3") (0,0s)
+2020-09-01T11:35:17.9071994-03:00:2020-09-01T11:35:17.9069408-03:00:Thread#0:B:E que a senha é "user1@124"
+2020-09-01T11:35:17.9077861-03:00:2020-09-01T11:35:17.9075180-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.DadoQueASenhaE("user1@124") (0,0s)
+2020-09-01T11:35:17.9083450-03:00:2020-09-01T11:35:17.9080744-03:00:Thread#0:B:Quando é solicitada a autenticação
+2020-09-01T11:35:17.9091754-03:00:2020-09-01T11:35:17.9089827-03:00:Thread#0:T:done: AutenticacaoDeUsuarioSteps.QuandoESolicitadaAAutenticacao() (0,0s)
+2020-09-01T11:35:17.9096756-03:00:2020-09-01T11:35:17.9094089-03:00:Thread#0:B:Entao retorna mensagem de erro "Usuário não cadastrado"
+2020-09-01T11:35:17.9136071-03:00:2020-09-01T11:35:17.9131314-03:00:Thread#0:T:error: Multiple failures or warnings in test:
+2020-09-01T11:35:17.9143639-03:00:2020-09-01T11:35:17.9139742-03:00:Thread#0:T:  1)   Expected: 401
+2020-09-01T11:35:17.9149676-03:00:2020-09-01T11:35:17.9146504-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.9154678-03:00:2020-09-01T11:35:17.9151789-03:00:Thread#0:T:  2)   Expected: 401
+2020-09-01T11:35:17.9160231-03:00:2020-09-01T11:35:17.9157162-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.9165150-03:00:2020-09-01T11:35:17.9162609-03:00:Thread#0:T:  3)   Expected: 401
+2020-09-01T11:35:17.9169845-03:00:2020-09-01T11:35:17.9167430-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.9174509-03:00:2020-09-01T11:35:17.9172291-03:00:Thread#0:T:  4)   Expected: 401
+2020-09-01T11:35:17.9178783-03:00:2020-09-01T11:35:17.9176578-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.9182772-03:00:2020-09-01T11:35:17.9180881-03:00:Thread#0:T:  5)   Expected: 401
+2020-09-01T11:35:17.9186429-03:00:2020-09-01T11:35:17.9184427-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.9190165-03:00:2020-09-01T11:35:17.9188215-03:00:Thread#0:T:  6)   Expected: 401
+2020-09-01T11:35:17.9193123-03:00:2020-09-01T11:35:17.9191376-03:00:Thread#0:T:  But was:  500
+2020-09-01T11:35:17.9263788-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-01T11:35:17.9264102-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-09-01T11:35:17.9264137-03:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-09-01T11:35:17.9264158-03:00:Thread#0:Scheduler: No more tests for thread
+2020-09-01T11:35:17.9320546-03:00:Thread#0: Test #7/2 is finished on thread #0 as Failed within 0,0314245 seconds
+2020-09-01T11:35:17.9386594-03:00:2020-09-01T11:35:17.9383076-03:00:Got Deinitialize Signal
+2020-09-01T11:35:17.9417693-03:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2020-09-01T11:35:17.9431064-03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-09-01T11:35:17.9453066-03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-09-01T11:35:17.9486049-03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T11:35:17.9486289-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2020-09-01T11:35:17.9486341-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2020-09-01T11:35:17.9486389-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.9486479-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-09-01T11:35:17.9486713-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-09-01T11:35:17.9486862-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'D:\prj\dimas\api-test\bin\Debug\netcoreapp3.1'
+2020-09-01T11:35:17.9495083-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:17.9495175-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\System.Diagnostics.Process.resources.dll'
+2020-09-01T11:35:17.9495644-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5\System.Diagnostics.Process.resources.exe'
+2020-09-01T11:35:17.9495989-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.5'
+2020-09-01T11:35:17.9497498-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:17.9497565-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\System.Diagnostics.Process.resources.dll'
+2020-09-01T11:35:17.9497981-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5\System.Diagnostics.Process.resources.exe'
+2020-09-01T11:35:17.9498339-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.5'
+2020-09-01T11:35:17.9499983-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:17.9500052-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\System.Diagnostics.Process.resources.dll'
+2020-09-01T11:35:17.9500563-03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5\System.Diagnostics.Process.resources.exe'
+2020-09-01T11:35:17.9500908-03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.5'
+2020-09-01T11:35:17.9504178-03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-01T11:35:17.9571814-03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-09-01T11:35:17.9571965-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-09-01T11:35:17.9571987-03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-09-01T11:35:17.9653849-03:00;Thread#12;Info;test run finished
+2020-09-01T11:35:17.9655645-03:00;Thread#12;Info;publishing test results
+2020-09-01T11:35:17.9657091-03:00;Thread#12;Info;Not publishing results.
+2020-09-01T11:35:17.9657669-03:00;Thread#12;Info;test results published
+2020-09-01T11:35:17.9658201-03:00;Thread#12;Info;generating reports
+2020-09-01T11:35:18.0693434-03:00;Thread#12;Info;Starting external report generation process
+2020-09-01T11:35:19.7265629-03:00;Thread#12;Info;Successfully generated reports.
+2020-09-01T11:35:19.7313389-03:00;Thread#12;Info;Successfully generated reports
+2020-09-01T11:35:19.7373665-03:00:Total: 4 (test executions: 8)
+2020-09-01T11:35:19.7390136-03:00:Succeeded: 2
+2020-09-01T11:35:19.7392900-03:00:Ignored: 0
+2020-09-01T11:35:19.7395273-03:00:Pending: 0
+2020-09-01T11:35:19.7395346-03:00:Skipped: 0
+2020-09-01T11:35:19.7397528-03:00:Failed: 2
+2020-09-01T11:35:19.7477937-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-09-01T11:35:19.7478623-03:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\prj\dimas\TestResults\Unnamed project__2020-09-01T113514.html'
+========== End of log file ==========

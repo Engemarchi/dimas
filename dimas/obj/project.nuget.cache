@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lrR2oH4QZg4BBVEC8TtnCDkDAFHCKEdAObNhA9r7oL6qtS1YmTZ5KjJZtyo85EkxYkSU3cI3Sbre1HlPSlcqgg==",
+  "success": true,
+  "projectFilePath": "D:\\prj\\dimas\\dimas\\dimas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\euclides.okamoto\\.nuget\\packages\\bootstrap\\4.5.2\\bootstrap.4.5.2.nupkg.sha512",
+    "C:\\Users\\euclides.okamoto\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\euclides.okamoto\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\euclides.okamoto\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
+  ],
+  "logs": []
+}

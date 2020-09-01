@@ -1,0 +1,10 @@
+﻿2020-09-01T09:40:53.8609440-03:00;Thread#1;Info;Reading test run result from Json file "C:\Users\euclides.okamoto\AppData\Local\Temp\tmpC0CF.tmp".
+2020-09-01T09:40:53.8711356-03:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\euclides.okamoto\AppData\Local\Temp\tmpC0CF.tmp"
+2020-09-01T09:40:53.8711356-03:00;Thread#1;Info;Deserializing test run result
+2020-09-01T09:40:54.4279687-03:00;Thread#1;Info;Successfully deserialized test run result
+2020-09-01T09:40:54.4279687-03:00;Thread#1;Info;Loading test run result
+2020-09-01T09:40:54.4639710-03:00;Thread#1;Info;Successfully loaded test run result
+2020-09-01T09:40:54.4749685-03:00;Thread#1;Info;creating 1 report(s)
+2020-09-01T09:40:54.4749685-03:00;Thread#1;Info;generate Report ReportTemplate.cshtml
+2020-09-01T09:40:55.3484340-03:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

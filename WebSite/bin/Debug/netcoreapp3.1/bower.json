@@ -1,0 +1,21 @@
+{
+  "name": "website",
+  "private": true,
+  "authors": [
+    "Euclides Gonçalves Okamoto <euclides.okamoto@pixeon.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Font-Awesome": "5.14.0",
+    "bootstrap": "v4.5.2",
+    "moment": "momentjs#2.27.0"
+  }
+}
